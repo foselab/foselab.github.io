@@ -5,6 +5,7 @@ description: Bringing adaptation to the ventilators
 img: assets/img/12.jpg
 importance: 1
 category: work
+encoding: utf-8
 ---
 The MVM-Adapt project, with the italian title: Milano Ventilatore Meccanico Adattativo in presenza d'incertezza is a research project funded by the Italin Ministry of Research and University under the program FISR 2020 COVID.
 
