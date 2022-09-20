@@ -1,7 +1,11 @@
 ---
-layout: people
+layout: page
 title: people
+description: people at foselab.unibg.it
 permalink: /people/
+nav: true
+nav_order: 1
+horizontal: false
 ---
 
 ###People
