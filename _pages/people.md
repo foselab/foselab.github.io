@@ -9,7 +9,10 @@ horizontal: false
 ---
 
 ###People
+
+<div class="d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
     Gargantini Angelo - Professor
+</div>
     Scandurra Patrizia - Associate Professor
     Silvia Bonfanti - PhD, now post doc
     Andrea Bombarda - PhD student
