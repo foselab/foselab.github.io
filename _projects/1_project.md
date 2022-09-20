@@ -18,4 +18,4 @@ Partners
 
 **Gran Sasso Science Institute**: Catia Trubiani, Patrizio Pelliccione, and Martina De Sanctis
 
-**Universit‡ degli Studi di Milano**: Elvinia Riccobene
+**Universit√† degli Studi di Milano**: Elvinia Riccobene
