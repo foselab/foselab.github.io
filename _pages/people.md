@@ -8,20 +8,16 @@ nav_order: 1
 horizontal: false
 ---
 
-###People
+<div class="people">Gargantini Angelo - Professor</div>
+<div class="people">Scandurra Patrizia - Associate Professor</div>
+<div class="people">Silvia Bonfanti - PhD, now post doc</div>
+<div class="people">Andrea Bombarda - PhD student</div>
 
-<div class="d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-    Gargantini Angelo - Professor
-</div>
-    Scandurra Patrizia - Associate Professor
-    Silvia Bonfanti - PhD, now post doc
-    Andrea Bombarda - PhD student
+### Former members
+<div class="people">Marco Radavelli - PhD student - graduated in October 2019</div>
+<div class="people">Paolo Vavassori, PhD, postdoc and Dottorando XXVIII ciclo</div>
 
-###Former member
-    Marco Radavelli - PhD student - expected to graduate in October 2019
-    Paolo Vavassori, PhD, postdoc and Dottorando XXVIII ciclo
-
-###Collaborators
-    Elvinia Riccobene @ University of Milan
-    Paolo Arcaini @ National Institute of Informatics, Tokyo
-    Matteo Camilli @ Free University of Bozen-Bolzano
+### Collaborators
+<div class="people">Elvinia Riccobene @ University of Milan</div>
+<div class="people">Paolo Arcaini @ National Institute of Informatics, Tokyo</div>
+<div class="people">Matteo Camilli @ Free University of Bozen-Bolzano</div>
