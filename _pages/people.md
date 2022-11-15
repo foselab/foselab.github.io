@@ -28,6 +28,7 @@ horizontal: false
 <div class="people">Scandurra Patrizia - Associate Professor</div>
 <div class="people">Silvia Bonfanti - PhD, now post doc</div>
 <div class="people">Andrea Bombarda - PhD student</div>
+<div class="people">Simona Piazzi - PhD student</div>
 
 <div class="people">
   <!-- Display categorized projects -->
