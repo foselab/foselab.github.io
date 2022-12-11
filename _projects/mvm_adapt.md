@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MVM ADAPT project
+title: MVM ADAPT
 description: Bringing adaptation to the ventilators
 img: assets/img/12.jpg
 importance: 1

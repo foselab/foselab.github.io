@@ -11,38 +11,70 @@ horizontal: false
 <div class="people">
  <div class="grid">
   <div class="grid-item">
-  <a href="/projects/1_project/">
+  <a href="https://cs.unibg.it/gargantini/">
      <div class="card hoverable">
-	    <img src="/assets/img/12.jpg"">
+	    <img src="/assets/img/12.jpg">
         <div class="card-body">
-          <h2 class="card-title text-lowercase">Angelo Gargantini</h2>
+          <h2 class="card-title">Angelo Gargantini</h2>
+          Professor
+        </div>
+     </div> </a>
+  </div>
+  <div class="grid-item">
+  <a href="https://cs.unibg.it/gargantini/">
+     <div class="card hoverable">
+	    <img src="/assets/img/10.jpg">
+        <div class="card-body">
+          <h2 class="card-title">Scandurra Patrizia</h2>
+          Associate Professor
+        </div>
+     </div> </a>
+  </div>   
+  <div class="grid-item">
+  <a href="https://cs.unibg.it/gargantini/">
+     <div class="card hoverable">
+	    <img src="/assets/img/1.jpg">
+        <div class="card-body">
+          <h2 class="card-title">Silvia Bonfanti</h2>
+          Reasearcher (RTDa)
+        </div>
+     </div> </a>
+</div>
+</div>
+</div>
+<div class="people">
+ <div class="grid">
+  <div class="grid-item">
+  <a href="https://cs.unibg.it/gargantini/">
+     <div class="card hoverable">
+	    <img src="/assets/img/12.jpg">
+        <div class="card-body">
+          <h2 class="card-title">Andrea Bombarda</h2>
+          PostDoc
+        </div>
+     </div> </a>
+  </div>
+  <div class="grid-item">
+  <a href="https://cs.unibg.it/gargantini/">
+     <div class="card hoverable">
+	    <img src="/assets/img/12.jpg">
+        <div class="card-body">
+          <h2 class="card-title">Simona Piazzi</h2>
+          PhD student
         </div>
      </div> </a>
 </div>
 </div>
 </div>
 
-
-
-<div class="people">Gargantini Angelo - Professor</div>
-<div class="people">Scandurra Patrizia - Associate Professor</div>
-<div class="people">Silvia Bonfanti - PhD, now post doc</div>
-<div class="people">Andrea Bombarda - PhD student</div>
-<div class="people">Simona Piazzi - PhD student</div>
-
-<div class="people">
-  <!-- Display categorized projects -->
-  <h2 class="category">work</h2>
-  <!-- Generate cards for each project -->
-
 ### Former members
-<div class="people">Marco Radavelli - PhD student - graduated in October 2019</div>
-<div class="people">Paolo Vavassori, PhD, postdoc and Dottorando XXVIII ciclo</div>
+<div class="people">Marco Radavelli, PhD - graduated in October 2019</div>
+<div class="people">Paolo Vavassori, PhD - graduated in 2017</div>
 
-### Collaborators
+### Collaborators (former members)
 <div class="people">Elvinia Riccobene @ University of Milan</div>
 <div class="people">Paolo Arcaini @ National Institute of Informatics, Tokyo</div>
-<div class="people">Matteo Camilli @ Free University of Bozen-Bolzano</div>
+<div class="people">Matteo Camilli @ Politecico di Milano</div>
 
 
 
