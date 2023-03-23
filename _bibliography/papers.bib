@@ -3,25 +3,240 @@
 
 @string{aps = {American Physical Society,}}
 
-@Article{Bombarda2022,
-  author   = {Andrea Bombarda and Silvia Bonfanti and Cristiano Galbiati and Angelo Gargantini and Patrizio Pelliccione and Elvinia Riccobene and Masayuki Wada},
-  journal  = {Information and Software Technology},
-  title    = {Guidelines for the development of a critical software under emergency},
-  year     = {2022},
-  issn     = {0950-5849},
-  pages    = {107061},
-  volume   = {152},
-  doi      = {https://doi.org/10.1016/j.infsof.2022.107061},
-  keywords = {Safety–critical systems development, Software certification, Lessons learned, Guidelines, Healthcare},
-  url      = {https://www.sciencedirect.com/science/article/pii/S0950584922001707},
+@InCollection{Bombarda2019,
+  author    = {Andrea Bombarda and Silvia Bonfanti and Angelo Gargantini},
+  title     = {Developing Medical Devices from Abstract State Machines to Embedded Systems: A Smart Pill Box Case Study},
+  booktitle = {Software Technology: Methods and Tools},
+  publisher = {Springer International Publishing},
+  year      = {2019},
+  pages     = {89--103},
+  abstract  = {The development of medical devices is a safety-critical process, because a failure or a malfunction of the device can cause serious injuries to the patients whom use it. The application of a rigorous process for their development reduces the risk of failures since validation and verification activities can be performed in a objective, reproducible, and documentable manner. In this paper we present an approach based on the Abstract State Machine (ASM) formal method. Starting from the model, validation and verification (V&V) techniques can be applied. Furthermore, by step-wise refinement, a final model can be obtained, which can be automatically translated to  code. The process is applied to the smart pill box case study. Starting from the ASM model, we generate  code for the Arduino platform after the application of V&V activities. Furthermore, we introduce regulation (IEC62304) and guidelines (FDA General Principles of Software Validation) that support the developer in medical software development. In particular, we explain how ASMs formal process can be compliant with them.},
+  comment   = {Best student paper award},
+  doi       = {10.1007/978-3-030-29852-4_7},
+}
+
+@InCollection{Bombarda2019a,
+  author    = {Andrea Bombarda and Silvia Bonfanti and Angelo Gargantini and Marco Radavelli and Feng Duan and Yu Lei},
+  title     = {Combining Model Refinement and Test Generation for Conformance Testing of the {IEEE} {PHD} Protocol Using Abstract State Machines},
+  booktitle = {Testing Software and Systems},
+  publisher = {Springer International Publishing},
+  year      = {2019},
+  pages     = {67--85},
+  abstract  = {In this paper we propose a new approach to conformance testing based on Abstract State Machine (ASM) model refinement. It consists in generating test sequences from ASM models and checking the conformance between code and models in multiple iterations. This process is applied at different models, starting from the more abstract model to the one that is very close to the code. The process consists of the following steps: (1) model the system as an Abstract State Machine, (2) generate test sequences based on the ASM model, (3) compute the code coverage using generated tests, (4) if the coverage is low refine the Abstract State Machine and return to step 2. We have applied the proposed approach to Antidote, an open-source implementation of IEEE 11073-20601 Personal Health Device (PHD) protocol which allows personal healthcare devices to exchange data with other devices such as small computers and smartphones.},
+  doi       = {10.1007/978-3-030-31280-0_5},
+}
+
+@InProceedings{Arcaini2020,
+  author    = {Paolo Arcaini and Andrea Bombarda and Silvia Bonfanti and Angelo Gargantini},
+  title     = {Dealing with Robustness of Convolutional Neural Networks for Image Classification},
+  booktitle = {2020 {IEEE} International Conference On Artificial Intelligence Testing ({AITest})},
+  year      = {2020},
+  month     = {aug},
+  publisher = {{IEEE}},
+  abstract  = {SW-based systems depend more and more on AI also for critical tasks. For instance, the use of machine learning, especially for image recognition, is increasing ever more. As state-of-the-art, Convolutional Neural Networks (CNNs) are the most adopted techniques for image classification. Although they are proved to have optimal results, it is not clear what happens when unforeseen modifications during the image acquisition and elaboration occur. Thus, it is very important to assess the robustness of a CNN, especially when it is used in a safety critical system, as, e.g., in the medical domain or in automated driving systems. Most of the analyses made about the robustness of CNNs are focused on adversarial examples which are created by exploiting the CNN internal structure; however, these are not the only problems we can encounter with CNNs and, moreover, they may be unlikely in some fields. This is why, in this paper, we focus on the robustness analysis when plausible alterations caused by an error during the acquisition of the input images occur. We give a novel definition of robustness w.r.t. possible input alterations for a CNN and we propose a framework to compute it. Moreover, we analyse four methods (data augmentation, limited data augmentation, network parallelization, and limited network parallelization) which can be used to improve the robustness of a CNN for image classification. Analyses are conducted over a dataset of histologic images.},
+  comment   = {Best paper on AI-based testing},
+  doi       = {10.1109/aitest49225.2020.00009},
+}
+
+@InProceedings{Bombarda2020,
+  author    = {Andrea Bombarda and Angelo Gargantini},
+  title     = {An Automata-Based Generation Method for Combinatorial Sequence Testing of Finite State Machines},
+  booktitle = {2020 {IEEE} International Conference on Software Testing, Verification and Validation Workshops ({ICSTW})},
+  year      = {2020},
+  month     = {oct},
+  publisher = {{IEEE}},
+  abstract  = {Combinatorial Interaction Testing has been applied to event-driven software systems by using as test suite a set of sequences of inputs in desired combinations. This is generally called combinatorial sequence testing (CST). CST requires possibly new system models from which tests are generated and new test generation methods (or an adaptation of the classical ones). Finite State Machines (FSMs) can easily represent event-based systems where certain inputs are valid only in some states and such constraints can be represented by the incompleteness of the FSM. In this paper, we propose an approach to CST where tests are generated from FSMs which are represented by automata together with test requirements. First, automata can be used to check if test sequences contain invalid inputs. We propose three methods to repair tests with invalid inputs. Moreover, we can directly embed into automata the system constraints over the inputs during generations, to generate only valid test sequences. We compare our automata-based method with the standard approach of Sequences Covering Arrays (SCAs) that produces a set of sequences, all with the same length, composed by the permutation of all the events supported by the system. We found that generating only valid tests from automata provides several advantages iv.r.t. repairing tests and SCAs.},
+  doi       = {10.1109/icstw50294.2020.00036},
+}
+
+@InProceedings{Arcaini2021,
+  author    = {Paolo Arcaini and Andrea Bombarda and Silvia Bonfanti and Angelo Gargantini},
+  title     = {{ROBY}: a Tool for Robustness Analysis of Neural Network Classifiers},
+  booktitle = {2021 14th {IEEE} Conference on Software Testing, Verification and Validation ({ICST})},
+  year      = {2021},
+  month     = {apr},
+  publisher = {{IEEE}},
+  abstract  = {Classification using Artificial Neural Networks (ANNs) is widely applied in critical domains, such as autonomous driving and in the medical practice; therefore, their validation is extremely important. A common approach consists in assessing the network robustness, i.e., its ability to correctly classify input data that is particularly challenging for classification. We recently proposed a robustness definition that considers input data degraded by alterations that may occur in reality; the approach was originally devised for image classification in the medical domain. In this paper, we extend the definition of robustness to any type of input for which some alterations can be defined. Then, we present ROBY, a tool for ROBustness analYsis of ANNs. The tool accepts different types of data (images, sounds, text, etc.) stored either locally or on Google Drive. The user can use some alterations provided by the tool, or define their own. The robustness computation can be performed either locally or remotely on Google Colab. The tool has been experimented for robustness computation of image and sound classifiers, used in the medical and automotive domains.},
+  doi       = {10.1109/icst49551.2021.00057},
+}
+
+@Article{Abba2021,
+  author    = {A. Abba and C. Accorsi and P. Agnes and E. Alessi and P. Amaudruz and A. Annovi and F. Ardellier Desages and S. Back and C. Badia and J. Bagger and V. Basile and G. Batignani and A. Bayo and B. Bell and M. Beschi and D. Biagini and G. Bianchi and S. Bicelli and D. Bishop and T. Boccali and A. Bombarda and S. Bonfanti and W. M. Bonivento and M. Bouchard and M. Breviario and S. Brice and R. Brown and J. M. Calvo-Mozota and L. Camozzi and M. Camozzi and A. Capra and M. Caravati and M. Carlini and A. Ceccanti and B. Celano and J. M. Cela Ruiz and C. Charette and G. Cogliati and M. Constable and C. Crippa and G. Croci and S. Cudmore and C. E. Dahl and A. Dal Molin and M. Daley and C. Di Guardo and G. D{\textquotesingle}Avenio and O. Davignon and M. Del Tutto and J. De Ruiter and A. Devoto and P. Diaz Gomez Maqueo and F. Di Francesco and M. Dossi and E. Druszkiewicz and C. Duma and E. Elliott and D. Farina and C. Fernandes and F. Ferroni and G. Finocchiaro and G. Fiorillo and R. Ford and G. Foti and R. D. Fournier and D. Franco and C. Fricbergs and F. Gabriele and C. Galbiati and P. Garcia Abia and A. Gargantini and L. Giacomelli and F. Giacomini and F. Giacomini and L. S. Giarratana and S. Gillespie and D. Giorgi and T. Girma and R. Gobui and D. Goeldi and F. Golf and P. Gorel and G. Gorini and E. Gramellini and G. Grosso and F. Guescini and E. Guetre and G. Hackman and T. Hadden and W. Hawkins and K. Hayashi and A. Heavey and G. Hersak and N. Hessey and G. Hockin and K. Hudson and A. Ianni and C. Ienzi and V. Ippolito and C. C. James and C. Jillings and C. Kendziora and S. Khan and E. Kim and M. King and S. King and A. Kittmer and I. Kochanek and J. Kowalkowski and R. Krücken and M. Kushoro and S. Kuula and M. Laclaustra and G. Leblond and L. Lee and A. Lennarz and M. Leyton and X. Li and P. Liimatainen and C. Lim and T. Lindner and T. Lomonaco and P. Lu and R. Lubna and G. A. Lukhanin and G. Luz{\'{o}}n and M. MacDonald and G. Magni and R. Maharaj and S. Manni and C. Mapelli and P. Margetak and L. Martin and S. Martin and M. Mart{\'{\i}}nez and N. Massacret and P. McClurg and A. B. McDonald and E. Meazzi and R. Migalla and T. Mohayai and L. M. Tosatti and G. Monzani and C. Moretti and B. Morrison and M. Mountaniol and A. Muraro and P. Napoli and F. Nati and C. R. Natzke and A. J. Noble and A. Norrick and K. Olchanski and A. Ortiz de Solorzano and F. Padula and M. Pallavicini and I. Palumbo and E. Panontin and N. Papini and L. Parmeggiano and S. Parmeggiano and K. Patel and A. Patel and M. Paterno and C. Pellegrino and P. Pelliccione and V. Pesudo and A. Pocar and A. Pope and S. Pordes and F. Prelz and O. Putignano and J. L. Raaf and C. Ratti and M. Razeti and A. Razeto and D. Reed and J. Refsgaard and T. Reilly and A. Renshaw and F. Retriere and E. Riccobene and D. Rigamonti and A. Rizzi and J. Rode and J. Romualdez and L. Russel and D. Sablone and S. Sala and D. Salomoni and P. Salvo and A. Sandoval and E. Sansoucy and R. Santorelli and C. Savarese and E. Scapparone and T. Schaubel and S. Scorza and M. Settimo and B. Shaw and S. Shawyer and A. Sher and A. Shi and P. Skensved and A. Slutsky and B. Smith and N. J. T. Smith and A. Stenzler and C. Straubel and P. Stringari and M. Suchenek and B. Sur and S. Tacchino and L. Takeuchi and M. Tardocchi and R. Tartaglia and E. Thomas and D. Trask and J. Tseng and L. Tseng and L. VanPagee and V. Vedia and B. Velghe and S. Viel and A. Visioli and L. Viviani and D. Vonica and M. Wada and D. Walter and H. Wang and M. H. L. S. Wang and S. Westerdale and D. Wood and D. Yates and S. Yue and V. Zambrano},
+  title     = {The novel Mechanical Ventilator Milano for the {COVID}-19 pandemic},
+  journal   = {Physics of Fluids},
+  year      = {2021},
+  volume    = {33},
+  number    = {3},
+  pages     = {037122},
+  month     = {mar},
+  abstract  = {This paper presents the Mechanical Ventilator Milano (MVM), a novel intensive therapy mechanical ventilator designed for rapid, large-scale, low-cost production for the COVID-19 pandemic. Free of moving mechanical parts and requiring only a source of compressed oxygen and medical air to operate, the MVM is designed to support the long-term invasive ventilation often required for COVID-19 patients and operates in pressure-regulated ventilation modes, which minimize the risk of furthering lung trauma. The MVM was extensively tested against ISO standards in the laboratory using a breathing simulator, with good agreement between input and measured breathing parameters and performing correctly in response to fault conditions and stability tests. The MVM has obtained Emergency Use Authorization by U.S. Food and Drug Administration (FDA) for use in healthcare settings during the COVID-19 pandemic and Health Canada Medical Device Authorization for Importation or Sale, under Interim Order for Use in Relation to COVID-19. Following these certifications, mass production is ongoing and distribution is under way in several countries. The MVM was designed, tested, prepared for certification, and mass produced in the space of a few months by a unique collaboration of respiratory healthcare professionals and experimental physicists, working with industrial partners, and is an excellent ventilator candidate for this pandemic anywhere in the world.},
+  doi       = {10.1063/5.0044445},
+  publisher = {{AIP} Publishing},
+}
+
+@InProceedings{Bombarda2021,
+  author    = {Andrea Bombarda and Edoardo Crippa and Angelo Gargantini},
+  title     = {An environment for benchmarking combinatorial test suite generators},
+  booktitle = {2021 {IEEE} International Conference on Software Testing, Verification and Validation Workshops ({ICSTW})},
+  year      = {2021},
+  month     = {apr},
+  publisher = {{IEEE}},
+  abstract  = {New tools for combinatorial test generation are proposed every year. However, different generators may have different performances on different models, in terms of the number of tests produced and generation time, so the choice of which generator has to be used can be challenging. Classical comparison between CIT generators considers only the number of tests composing the test suite. Still, especially when the time dedicated to testing activity is limited, generation time can be determinant. Thus, we propose a benchmarking framework including 1) a set of generic benchmark models, 2) an interface to easily integrate new generators, 3) methods to benchmark each generator against the others and to check validity and completeness. We have tested the proposed environment using five different generators (ACTS, CAgen, CASA, Medici, and PICT), comparing the obtained results in terms of the number of test cases and generation times, errors, completeness, and validity. Finally, we propose a CIT competition, between combinatorial generators, based on our framework.},
+  doi       = {10.1109/icstw52544.2021.00021},
+}
+
+@InCollection{Arcaini2021a,
+  author    = {Paolo Arcaini and Andrea Bombarda and Silvia Bonfanti and Angelo Gargantini and Elvinia Riccobene and Patrizia Scandurra},
+  title     = {The {ASMETA} Approach to Safety Assurance of Software Systems},
+  booktitle = {Logic, Computation and Rigorous Methods},
+  publisher = {Springer International Publishing},
+  year      = {2021},
+  pages     = {215--238},
+  abstract  = {Safety-critical systems require development methods and processes that lead to provably correct systems in order to prevent catastrophic consequences due to system failure or unsafe operation. The use of models and formal analysis techniques is highly demanded both at design-time, to guarantee safety and other desired qualities already at the early stages of the system development, and at runtime, to address requirements assurance during the system operational stage.
+
+In this paper, we present the modeling features and analysis techniques supported by ASMETA (ASM mETAmodeling), a set of tools for the Abstract State Machines formal method. We show how the modeling and analysis approaches in ASMETA can be used during the design, development, and operation phases of the assurance process for safety-critical systems, and we illustrate the advantages of integrated use of tools as that provided by ASMETA.},
+  doi       = {10.1007/978-3-030-76020-5_13},
+}
+
+@InCollection{Bombarda2021a,
+  author    = {Andrea Bombarda and Silvia Bonfanti and Angelo Gargantini and Elvinia Riccobene},
+  title     = {Extending {ASMETA} with Time Features},
+  booktitle = {Rigorous State-Based Methods},
+  publisher = {Springer International Publishing},
+  year      = {2021},
+  pages     = {105--111},
+  abstract  = {ASMs and the ASMETA framework can be used to model and analyze a variety of systems, and many of them rely on time constraints. In this paper, we present the ASMETA extension to deal with model time features.},
+  doi       = {10.1007/978-3-030-77543-8_8},
+}
+
+@InProceedings{Arcaini2021b,
+  author    = {Paolo Arcaini and Andrea Bombarda and Silvia Bonfanti and Angelo Gargantini},
+  title     = {Efficient Computation of Robustness of Convolutional Neural Networks},
+  booktitle = {2021 {IEEE} International Conference on Artificial Intelligence Testing ({AITest})},
+  year      = {2021},
+  month     = {aug},
+  publisher = {{IEEE}},
+  abstract  = {Validation of CNNs is extremely important, especially when they are used in safety-critical domains. In particular, in the latest years, the focus of validation has been put on assessing the robustness of CNNs, i.e., their ability to correctly classify perturbed input data. A way to measure robustness is to check the network accuracy over many datasets obtained by altering the input data in different ways, but this is time and resource-consuming. In this paper, we present ASAP, a method to efficiently compute the robustness of a CNN, exploiting a parabola-based approximation which allows to adaptively select only relevant alteration levels. The method is tested on two different benchmarks (MNIST and breast cancer classification). Moreover, we compare ASAP with other techniques based on uniform sampling, numerical integration, and random sampling.},
+  doi       = {10.1109/aitest52744.2021.00015},
+}
+
+@InProceedings{Bombarda2021b,
+  author    = {Andrea Bombarda and Silvia Bonfanti and Cristiano Galbiati and Angelo Gargantini and Patrizio Pelliccione and Elvinia Riccobene and Masayuki Wada},
+  title     = {Lessons Learned from the Development of a Mechanical Ventilator for {COVID}-19},
+  booktitle = {2021 {IEEE} 32nd International Symposium on Software Reliability Engineering ({ISSRE})},
+  year      = {2021},
+  month     = {oct},
+  publisher = {{IEEE}},
+  abstract  = {During the COVID-19 pandemic, many researchers all over the world have offered their time and competencies to face the heavy consequences of the disease. This is the case of a group of physicists, engineers, and physicians that around the middle of March 2020 started to develop a simplified mechanical lung ventilator, called MVM (Mechanical Ventilator Milano), to answer the high request of ventilators for Acute Respiratory Distress Syndrome (ARDS) in intensive care units. A prototype was ready in around one month. Since medical software malfunctions can lead to injuries or death of patients, before marketing MVM ventilators and distributing them in hospitals, software certification in accordance with the IEC 62304 standard was mandatory to guarantee system reliability. The team was then complemented by computer scientists specifically devoted to this task. The software re-engineering process, which lasted around two months from the end of the prototype, brought to a strong re-implementation of the device software components, which involved all the stakeholders in a continuous integration setting. In this paper, we report the experience of the MVM control SW re-engineering necessary to show evidence that the SW adheres to the standards and to consequently obtain the certification. We share results and lessons learned from this social project, where more than 100 volunteer researchers worked towards software certification at the extreme of their strength to get a real device finished in a rush since strongly required to support physicians in treating COVID-19 patients.},
+  doi       = {10.1109/issre52982.2021.00016},
+}
+
+@InCollection{Bombarda2022,
+  author    = {Andrea Bombarda and Silvia Bonfanti and Angelo Gargantini},
+  title     = {Automatic Test Generation with~{ASMETA} for~the~Mechanical Ventilator Milano Controller},
+  booktitle = {Testing Software and Systems},
+  publisher = {Springer International Publishing},
+  year      = {2022},
+  pages     = {65--72},
+  abstract  = {This paper presents an automatic test cases generation method from Abstract State Machine specifications. Starting from the ASMETA specification, the proposed approach applies the following steps: 1. Generation of abstract tests from a ASMETA model; 2. Optimization of the abstract tests; 3. Concretization of the abstract tests in GoogleTest; 4. Execution of the concrete tests on  code. We have applied this approach to the Mechanical Ventilator Milano (MVM) project, which our research group has contributed to develop, test, and certify during the Covid-19 pandemic.},
+  doi       = {10.1007/978-3-031-04673-5_5},
+}
+
+@Article{Bombarda2021c,
+  author       = {Andrea Bombarda and Silvia Bonfanti and Angelo Gargantini and Elvinia Riccobene},
+  title        = {Developing a Prototype of a Mechanical Ventilator Controller from Requirements to Code with ASMETA},
+  abstract     = {Rigorous development processes aim to be effective in developing critical systems, especially if failures can have catastrophic consequences for humans and the environment. Such processes generally rely on formal methods, which can guarantee, thanks to their mathematical foundation, model preciseness, and properties assurance. However, they are rarely adopted in practice. In this paper, we report our experience in using the Abstract State Machine formal method and the ASMETA framework in developing a prototype of the control software of the MVM (Mechanical Ventilator Milano), a mechanical lung ventilator that has been designed, successfully certified, and deployed during the COVID-19 pandemic. Due to time constraints and lack of skills, no formal method was applied for the MVM project. However, we here want to assess the feasibility of developing (part of) the ventilator by using a formal method-based approach. Our development process starts from a high-level formal specification of the system to describe the MVM main operation modes. Then, through a sequence of refined models, all the other requirements are captured, up to a level in which a C++ implementation of a prototype of the MVM controller is automatically generated from the model, and tested. Along the process, at each refinement level, different model validation and verification activities are performed, and each refined model is proved to be a correct refinement of the previous level. By means of the MVM case study, we evaluate the effectiveness and usability of our formal approach.},
+  date         = {2021-11-16},
+  doi          = {10.4204/EPTCS.349.2},
+  eprint       = {http://arxiv.org/abs/2111.08204v1},
+  eprintclass  = {cs.FL},
+  eprinttype   = {arXiv},
+  file         = {:http\://arxiv.org/pdf/2111.08204v1:PDF},
+  journaltitle = {EPTCS 349, 2021, pp. 13-29},
+  keywords     = {cs.FL, cs.SE},
 }
 
 @InProceedings{Arcaini2022,
   author    = {Paolo Arcaini and Andrea Bombarda and Silvia Bonfanti and Angelo Gargantini and Daniele Gamba and Rita Pedercini},
-  booktitle = {15th IEEE International Conference on Software Testing, Verification and Validation (ICST2022)},
   title     = {Robustness assessment and improvement of a neural network for blood oxygen pressure estimation},
+  booktitle = {2022 {IEEE} Conference on Software Testing, Verification and Validation ({ICST})},
   year      = {2022},
-  file      = {:icst2022.pdf:PDF},
+  month     = {apr},
+  publisher = {{IEEE}},
+  abstract  = {Neural networks have been widely applied for performing tasks in critical domains, such as, for example, the medical domain; their robustness is, therefore, important to be guaranteed. In this paper, we propose a robustness definition for neural networks used for regression, by tackling some of the problems of existing robustness definitions. First of all, by following recent works done for classification problems, we propose to define the robustness of networks used for regression w.r.t. alterations of their input data that can happen in reality. Since different alteration levels are not always equally probable, the robustness definition is parameterized with the probability distribution of the alterations. The error done by this type of networks is quantifiable as the difference between the estimated value and the expected value; since not all the errors are equally critical, the robustness definition is also parameterized with a “tolerance” function that specifies how the error is tolerated. The current work has been motivated by the collaboration with the industrial partner that has implemented a medical sensor employing a Multilayer Perceptron for the estimation of the blood oxygen pressure. After having computed the robustness for the case study, we have successfully applied three techniques to improve the network robustness: data augmentation with recombined data, data augmentation with altered data, and incremental learning. All the techniques have proved to contribute to increasing the robustness, though in different ways.},
+  doi       = {10.1109/icst53961.2022.00040},
+}
+
+@InProceedings{Bombarda2022a,
+  author    = {Andrea Bombarda and Angelo Gargantini},
+  title     = {Parallel Test Generation for Combinatorial Models Based on Multivalued Decision Diagrams},
+  booktitle = {2022 {IEEE} International Conference on Software Testing, Verification and Validation Workshops ({ICSTW})},
+  year      = {2022},
+  month     = {apr},
+  publisher = {{IEEE}},
+  abstract  = {Combinatorial interaction testing (CIT) is a testing technique that has proved to be effective in finding faults due to the interaction among inputs, and in reducing the number of test cases. One of the most crucial parts of combinatorial testing is the test generation for which many tools and algorithms have been proposed in recent years, with different methodologies and performances. However, generating tests remains a complex procedure that can require a lot of effort (mainly time). Thus, in this paper, we present the tool pMEDICI which aims to reduce the test generation time by parallelizing the generation process and exploiting the recent multithread hardware architectures. It uses Multivalued Decision Diagrams (MDDs) for representing the constraints and the tuples to be tested and extracts from them the t-wise test cases. Our experiments confirm that our tool requires a shorter amount of time for generating combinatorial test suites, especially for complex models, with a lot of parameters and constraints.},
+  doi       = {10.1109/icstw55395.2022.00027},
+}
+
+@Article{Bombarda2022b,
+  author    = {Andrea Bombarda and Silvia Bonfanti and Cristiano Galbiati and Angelo Gargantini and Patrizio Pelliccione and Elvinia Riccobene and Masayuki Wada},
+  title     = {Guidelines for the development of a critical software under emergency},
+  journal   = {Information and Software Technology},
+  year      = {2022},
+  pages     = {107061},
+  month     = {sep},
+  abstract  = {Context:
+During the first wave of the COVID-19 pandemic, an international and heterogeneous team of scientists collaborated on a social project to produce a mechanical ventilator for intensive care units (MVM). MVM has been conceived to be produced and used also in poor countries: it is open-source, no patents, cheap, and can be produced with materials that are easy to retrieve.
+
+Objective:
+The objective of this work is to extract from the experience of the MVM development and software certification a set of lessons learned and then guidelines that can help developers to produce safety-critical devices in similar emergency situations.
+
+Method:
+We conducted a case study. We had full access to source code, comments on code, change requests, test reports, every deliverable (60 in total) produced for the software certification (safety concepts, requirements specifications, architecture and design, testing activities, etc.), notes, whiteboard sketches, emails, etc. We validated both lessons learned and guidelines with experts.
+
+Findings:
+We contribute a set of validated lessons learned and a set of validated guidelines, together with a discussion of benefits and risks of each guideline.
+
+Conclusion:
+In this work we share our experience in certifying software for healthcare devices produced under emergency, i.e. with strict and pressing time constraints and with the difficulty of establishing a heterogeneous development team made of volunteers. We believe that the guidelines will help engineers during the development of critical software under emergency.},
+  doi       = {10.1016/j.infsof.2022.107061},
+  publisher = {Elsevier {BV}},
+}
+
+@Article{Bombarda2021d,
+  author   = {Andrea Bombarda and Silvia Bonfanti and Angelo Gargantini and Patrizio Pelliccione and Elvinia Riccobene},
+  title    = {Il successo di MVM, un progetto social e internazionale per realizzare un ventilatore polmonare},
+  journal  = {Il giornale dell'ingegnere},
+  year     = {2021},
+  volume   = {5},
+  pages    = {13},
+  month    = jun,
+  issn     = {1974-7144},
+  abstract = {La sua creazione ha visto la partecipazione di oltre 250 persone tra operatori sanitari, sviluppatori di software e ricercatori di Astrofisica delle particelle al Gran Sasso Science Institute dell’Aquila},
+  doi      = {http://hdl.handle.net/10446/202112},
+  url      = {http://hdl.handle.net/10446/202112},
+}
+
+@InProceedings{Bombarda2022c,
+  author    = {Andrea Bombarda and Silvia Bonfanti and Martina De Sanctis and Angelo Gargantini and Patrizio PelliccioneT and Elvinia Riccobene and Patrizia Scandurra},
+  title     = {Towards an Evaluation Framework for Autonomous Systems},
+  booktitle = {2022 {IEEE} International Conference on Autonomic Computing and Self-Organizing Systems Companion ({ACSOS}-C)},
+  year      = {2022},
+  month     = {sep},
+  publisher = {{IEEE}},
+  abstract  = {Despite the active and proficuous research in autonomous and self-adaptive systems of the last years, an evaluation framework to assess abilities related to adaption and to provide guidance to make a system smarter is still missing. In this paper, we perform the first steps towards an evaluation framework for autonomous systems to (i) make an assessment of a system from the perspective of its capacity to adapt and learn over time to handle new and unexpected conditions, (ii) explore and identify the possible pathways of improvement of the smart abilities (e.g., decisional autonomy, adaptability, perception, interaction, etc.) of a system, (iii) make a re-assessment when the improvement has been performed.},
+  doi       = {10.1109/acsosc56246.2022.00025},
+}
+
+@Article{Bombarda2022d,
+  author    = {Andrea Bombarda and Silvia Bonfanti and Angelo Gargantini and Yu Lei and Feng Duan},
+  title     = {{RATE}: A model-based testing approach that combines model refinement and test execution},
+  journal   = {Software Testing, Verification and Reliability},
+  year      = {2022},
+  month     = {dec},
+  abstract  = {In this paper, we present an approach to conformance testing based on abstract state machines (ASMs) that combines model refinement and test execution (RATE) and its application to three case studies. The RATE approach consists in generating test sequences from ASMs and checking the conformance between code and models in multiple iterations. The process follows these steps: (1) model the system as an abstract state machine; (2) validate and verify the model; (3) generate test sequences automatically from the ASM model; (4) execute the tests over the implementation and compute the code coverage; (5) if the coverage is below the desired threshold, then refine the abstract state machine model to add the uncovered functionalities and return to step 2. We have applied the proposed approach in three case studies: a traffic light control system (TLCS), the IEEE 11073-20601 personal health device (PHD) protocol, and the mechanical ventilator Milano (MVM). By applying RATE, at each refinement level, we have increased code coverage and identified some faults or conformance errors for all the case studies. The fault detection capability of RATE has also been confirmed by mutation analysis, in which we have highlighted that, many mutants can be killed even by the most abstract models.},
+  doi       = {10.1002/stvr.1835},
+  publisher = {Wiley},
 }
 
 @InProceedings{Bersani2022,
@@ -34,48 +249,9 @@
   doi       = {10.1109/icsa-c54293.2022.00024},
 }
 
-@InProceedings{Bombarda2022,
-  author    = {A. Bombarda and A. Gargantini},
-  booktitle = {2022 IEEE International Conference on Software Testing, Verification and Validation Workshops (ICSTW)},
-  title     = {Parallel Test Generation for Combinatorial Models Based on Multivalued Decision Diagrams},
-  year      = {2022},
-  address   = {Los Alamitos, CA, USA},
-  month     = {apr},
-  pages     = {74-81},
-  publisher = {IEEE Computer Society},
-  abstract  = {Combinatorial interaction testing (CIT) is a testing technique that has proved to be effective in finding faults due to the interaction among inputs, and in reducing the number of test cases. One of the most crucial parts of combinatorial testing is the test generation for which many tools and algorithms have been proposed in recent years, with different methodologies and performances. However, generating tests remains a complex procedure that can require a lot of effort (mainly time). Thus, in this paper, we present the tool pMEDICI which aims to reduce the test generation time by parallelizing the generation process and exploiting the recent multithread hardware architectures. It uses Multivalued Decision Diagrams (MDDs) for representing the constraints and the tuples to be tested and extracts from them the t-wise test cases. Our experiments confirm that our tool requires a shorter amount of time for generating combinatorial test suites, especially for complex models, with a lot of parameters and constraints.},
-  doi       = {10.1109/ICSTW55395.2022.00027},
-  issn      = {2159-4848},
-  keywords  = {multithreading;conferences;combinatorial testing;prototypes;hardware;generators;planning},
-  url       = {https://doi.ieeecomputersociety.org/10.1109/ICSTW55395.2022.00027},
-}
-
-@InProceedings{Bombarda2022a,
-  author    = {Andrea Bombarda and Silvia Bonfanti and Martina De Sanctis and Angelo Gargantini and Patrizio Pelliccione and Elvinia Riccobene and Patrizia Scandurra},
-  booktitle = {3rd IEEE International Conference on Autonomic Computing and Self-Organizing Systems - ACSOS 2022},
-  title     = {Towards an Evaluation Framework for Autonomous Systems},
-  year      = {2022},
-}
-
 @InProceedings{Bonfanti2022,
   author    = {Silvia Bonfanti and Angelo Gargantini and Elvinia Riccobene and Patrizia Scandurra},
   booktitle = {18th International Conference on Formal Aspects of Component Software},
   title     = {Compositional Simulation of Abstract State Machines for Safety Critical Systems},
   year      = {2022},
-}
-
-@Article{Abba2021,
-  author    = {A. Abba and alt.},
-  journal   = {Physics of Fluids},
-  title     = {The novel Mechanical Ventilator Milano for the {COVID}-19 pandemic},
-  year      = {2021},
-  month     = {mar},
-  number    = {3},
-  pages     = {037122},
-  volume    = {33},
-  abstract  = {This paper presents the Mechanical Ventilator Milano (MVM), a novel intensive therapy mechanical ventilator designed for rapid, large-scale, low-cost production for the COVID-19 pandemic. Free of moving mechanical parts and requiring only a source of compressed oxygen and medical air to operate, the MVM is designed to support the long-term invasive ventilation often required for COVID-19 patients and operates in pressure-regulated ventilation modes, which minimize the risk of furthering lung trauma. The MVM was extensively tested against ISO standards in the laboratory using a breathing simulator, with good agreement between input and measured breathing parameters and performing correctly in response to fault conditions and stability tests. The MVM has obtained Emergency Use Authorization by U.S. Food and Drug Administration (FDA) for use in healthcare settings during the COVID-19 pandemic and Health Canada Medical Device Authorization for Importation or Sale, under Interim Order for Use in Relation to COVID-19. Following these certifications, mass production is ongoing and distribution is under way in several countries. The MVM was designed, tested, prepared for certification, and mass produced in the space of a few months by a unique collaboration of respiratory healthcare professionals and experimental physicists, working with industrial partners, and is an excellent ventilator candidate for this pandemic anywhere in the world.},
-  doi       = {10.1063/5.0044445},
-  file      = {:MVM_paper_2021.pdf:PDF},
-  publisher = {{AIP} Publishing},
-  url       = {https://aip.scitation.org/doi/10.1063/5.0044445},
 }
