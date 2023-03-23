@@ -16,6 +16,7 @@ Software tools we are developing or have developed.
    <div class="row row-cols-2">
     {%- for project in sorted_projects -%}
     {% include projects_horizontal.html %}
+    <br>
     {%- endfor %}
 </div>
 
