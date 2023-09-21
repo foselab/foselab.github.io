@@ -53,7 +53,6 @@ horizontal: false
         </div>
      </div> </a>
 </div>
-<div class="grid">
   <div class="grid-item">
   <a href="https://cs.unibg.it/bombarda/">
      <div class="card hoverable">
@@ -64,7 +63,6 @@ horizontal: false
         </div>
      </div> </a>
   </div>
-</div>
 </div>
 
 ### Former members
