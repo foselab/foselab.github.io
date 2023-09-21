@@ -2,7 +2,7 @@
 layout: page
 title: MVM ADAPT
 description: Bringing adaptation to the ventilators
-img: assets/img/12.jpg
+img: assets/img/mvm.jpg
 importance: 1
 category: work
 encoding: utf-8
