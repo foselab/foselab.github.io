@@ -57,10 +57,10 @@ horizontal: false
   <div class="grid-item">
   <a href="https://cs.unibg.it/piazzi/">
      <div class="card hoverable">
-	    <img src="/assets/img/simo.jpg">
+	    <img src="/assets/img/claudio.jpeg">
         <div class="card-body">
-          <h2 class="card-title">Simona Piazzi</h2>
-          PhD student
+          <h2 class="card-title">Claudio Menghi</h2>
+          Reasearcher (RTDb)
         </div>
      </div> </a>
 </div>
