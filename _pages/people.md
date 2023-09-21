@@ -31,18 +31,19 @@ horizontal: false
      </div> </a>
   </div>   
   <div class="grid-item">
-  <a href="https://claudiomenghi.github.io/">
-     <div class="card hoverable">
-	    <img src="/assets/img/claudio.jpeg">
-        <div class="card-body">
-          <h2 class="card-title">Claudio Menghi</h2>
-          Reasearcher (RTDb)
-        </div>
-     </div> </a>
-   </div> 
-</div>
+   <a href="https://claudiomenghi.github.io/">
+      <div class="card hoverable">
+         <img src="/assets/img/claudio.jpeg">
+         <div class="card-body">
+            <h2 class="card-title">Claudio Menghi</h2>
+            Reasearcher (RTDb)
+         </div>
+      </div> </a>
+      </div> 
+   </div>
 </div>
 <div class="people">
+<div class="grid">
   <div class="grid-item">
   <a href="https://cs.unibg.it/bonfanti/">
      <div class="card hoverable">
@@ -52,7 +53,7 @@ horizontal: false
           Reasearcher (RTDa)
         </div>
      </div> </a>
-</div>
+   </div>
   <div class="grid-item">
   <a href="https://cs.unibg.it/bombarda/">
      <div class="card hoverable">
@@ -63,7 +64,7 @@ horizontal: false
         </div>
      </div> </a>
   </div>
-</div>
+</div></div>
 
 ### Former members
 <div class="people">Marco Radavelli, PhD - graduated in October 2019</div>
