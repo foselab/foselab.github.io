@@ -13,7 +13,7 @@ horizontal: false
   <div class="grid-item">
   <a href="https://cs.unibg.it/gargantini/">
      <div class="card hoverable">
-	    <img src="http://cs.unibg.it/gargantini/images/AGargantini.jpg" width=300px>
+	    <img src="http://cs.unibg.it/gargantini/images/AGargantini.jpg">
         <div class="card-body">
           <h2 class="card-title">Angelo Gargantini</h2>
           Professor
@@ -23,7 +23,7 @@ horizontal: false
   <div class="grid-item">
   <a href="https://cs.unibg.it/scandurra/">
      <div class="card hoverable">
-	    <img src="https://cs.unibg.it/scandurra/images/hi.JPG" width=300px>
+	    <img src="https://cs.unibg.it/scandurra/images/hi.JPG">
         <div class="card-body">
           <h2 class="card-title">Scandurra Patrizia</h2>
           Associate Professor
