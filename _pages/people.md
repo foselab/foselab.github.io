@@ -69,7 +69,7 @@ horizontal: false
      <div class="card hoverable">
 	    <img src="/assets/img/Nicola.jpg">
         <div class="card-body">
-          <h2 class="card-title">Nicola Zeni</h2>
+          <h2 class="card-title">Nicola<br>Zeni</h2>
           Reasearcher (RTDa)
         </div>
      </div> </a>
