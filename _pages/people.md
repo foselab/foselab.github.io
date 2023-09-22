@@ -64,6 +64,16 @@ horizontal: false
         </div>
      </div> </a>
   </div>
+<div class="grid-item">
+  <a href="">
+     <div class="card hoverable">
+	    <img src="/assets/img/Nicola">
+        <div class="card-body">
+          <h2 class="card-title">Nicola Zeni</h2>
+          Reasearcher (RTDa)
+        </div>
+     </div> </a>
+  </div>
 </div></div><br>
 
 ### Former members
