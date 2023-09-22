@@ -13,7 +13,7 @@ horizontal: false
   <div class="grid-item">
   <a href="https://cs.unibg.it/gargantini/">
      <div class="card hoverable">
-	    <img src="http://cs.unibg.it/gargantini/images/AGargantini.jpg">
+	    <img src="http://cs.unibg.it/gargantini/images/AGargantini.jpg" width=300px>
         <div class="card-body">
           <h2 class="card-title">Angelo Gargantini</h2>
           Professor
