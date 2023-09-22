@@ -2,6 +2,7 @@
 layout: page
 title: QUASMED
 description: Quality of Medical Software
+subdescription: 
 importance: 2
 category: work
 encoding: utf-8
