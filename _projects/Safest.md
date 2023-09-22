@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SAFEST - PRIN 2022
-description: Trust assurance of Digital Twins for medical cyber-physical systems
+description: Trust assurance of Digital Twins for medical CPSs
 img: assets/img/safest.png
 importance: 1
 category: work
