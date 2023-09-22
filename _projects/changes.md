@@ -1,7 +1,8 @@
 ---
 layout: page
-title: CHANGES - PNRR PE
+title: CHANGES
 description: Cultural Heritage Active Innovation for Sustenable Society
+subdescription: PNRR PE
 importance: 1
 category: work
 encoding: utf-8
