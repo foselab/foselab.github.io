@@ -68,7 +68,7 @@ horizontal: false
 
 ### Former members
 <div class="people">Marco Radavelli, PhD - graduated in October 2019</div>
-<div class="people">Paolo Vavassori, PhD - graduated in 2017</div>
+<div class="people">Paolo Vavassori, PhD - graduated in 2017</div><br>
 
 ### Collaborators (former members)
 <div class="people"><a href="https://riccobene.di.unimi.it/">Elvinia Riccobene @ University of Milan</a></div>
