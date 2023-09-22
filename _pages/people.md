@@ -13,7 +13,7 @@ horizontal: false
   <div class="grid-item">
   <a href="https://cs.unibg.it/gargantini/">
      <div class="card hoverable">
-	    <img src="http://cs.unibg.it/gargantini/images/AGargantini.jpg">
+	    <img src="/assets/img/Angelo.jpg">
         <div class="card-body">
           <h2 class="card-title">Angelo Gargantini</h2>
           Professor
@@ -23,7 +23,7 @@ horizontal: false
   <div class="grid-item">
   <a href="https://cs.unibg.it/scandurra/">
      <div class="card hoverable">
-	    <img src="https://cs.unibg.it/scandurra/images/hi.JPG">
+	    <img src="/assets/img/Patrizia.jpeg">
         <div class="card-body">
           <h2 class="card-title">Scandurra Patrizia</h2>
           Associate Professor
@@ -33,7 +33,7 @@ horizontal: false
   <div class="grid-item">
    <a href="https://claudiomenghi.github.io/">
       <div class="card hoverable">
-         <img src="/assets/img/claudio.jpeg">
+         <img src="/assets/img/Claudio.jpeg">
          <div class="card-body">
             <h2 class="card-title">Claudio Menghi</h2>
             Reasearcher (RTDb)
@@ -47,7 +47,7 @@ horizontal: false
   <div class="grid-item">
   <a href="https://cs.unibg.it/bonfanti/">
      <div class="card hoverable">
-	    <img src="https://cs.unibg.it/bonfanti/MyPhoto.jpg">
+	    <img src="/assets/img/Silvia.jpg">
         <div class="card-body">
           <h2 class="card-title">Silvia Bonfanti</h2>
           Reasearcher (RTDa)
@@ -57,7 +57,7 @@ horizontal: false
   <div class="grid-item">
   <a href="https://cs.unibg.it/bombarda/">
      <div class="card hoverable">
-	    <img src="https://cs.unibg.it/bombarda/assets/images/about.jpg">
+	    <img src="/assets/img/Andrea.jpg">
         <div class="card-body">
           <h2 class="card-title">Andrea Bombarda</h2>
           Reasearcher (RTDa)
