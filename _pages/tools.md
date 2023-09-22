@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /tools/
-title: tools
-description: 
+title: Tools
+description: Tools developed within FOSELAB@unibg group
 nav: true
 nav_order: 5
 ---

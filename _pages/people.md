@@ -1,7 +1,7 @@
 ---
 layout: page
-title: people
-description: people at FOSELAB@unibg
+title: People
+description: People at FOSELAB@unibg
 permalink: /people/
 nav: true
 nav_order: 1
