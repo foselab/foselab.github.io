@@ -12,7 +12,8 @@ The MVM-Adapt project, with the italian title: Milano Ventilatore Meccanico Adat
 MVM-Adapt aims at increasing operability and robustness of the MVM by exploiting the paradigm of Self Adaptive Software. The new MVM control software will be able to monitor its operation and uncertain environmental conditions (e.g., the health status of patients), and to adapt its operation according to precise safety and health requirements of the patient.
 
 It builds on the existing MVM project (https://mvm.care) which had the goal to minimize the time and the costs required to get a lung ventilator designed, certified, manufactured, and distributed during the COVID emergency see.
-Partners
+
+## Partners
 
 **University of Bergamo**: Angelo Gargantini, Patrizia Scandurra, Silvia Bonfanti, and Andrea Bombarda
 
