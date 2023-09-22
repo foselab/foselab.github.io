@@ -13,7 +13,7 @@ MVM-Adapt aims at increasing operability and robustness of the MVM by exploiting
 
 It builds on the existing MVM project (https://mvm.care) which had the goal to minimize the time and the costs required to get a lung ventilator designed, certified, manufactured, and distributed during the COVID emergency see.
 
-## Partners
+### Partners
 
 **University of Bergamo**: Angelo Gargantini, Patrizia Scandurra, Silvia Bonfanti, and Andrea Bombarda
 
@@ -21,7 +21,7 @@ It builds on the existing MVM project (https://mvm.care) which had the goal to m
 
 **Università degli Studi di Milano**: Elvinia Riccobene
 
-## Publications
+### Publications
 <div class="publications">
 {% bibliography -f papers -q @*[key=10446_250709]* %}
 
