@@ -1,7 +1,8 @@
 ---
 layout: page
-title: MVM ADAPT - FISR
+title: MVM ADAPT
 description: Bringing adaptation to the ventilators
+subdescription: FISR
 img: assets/img/mvm.jpg
 importance: 1
 category: work
