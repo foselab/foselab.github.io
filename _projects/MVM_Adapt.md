@@ -22,8 +22,8 @@ It builds on the existing MVM project (https://mvm.care) which had the goal to m
 **Università degli Studi di Milano**: Elvinia Riccobene
 
 ## Publications
-
+<div class="publications">
 {% bibliography -f papers -q @*[key=10446_250709]* %}
 
 {% bibliography -f papers -q @*[key=10446_235451]* %}
-
+</div>
