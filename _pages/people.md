@@ -23,7 +23,7 @@ horizontal: false
   <div class="grid-item">
   <a href="https://cs.unibg.it/scandurra/">
      <div class="card hoverable">
-	    <img src="https://cs.unibg.it/scandurra/images/hi.JPG">
+	    <img src="https://cs.unibg.it/scandurra/images/hi.JPG" width=300px>
         <div class="card-body">
           <h2 class="card-title">Scandurra Patrizia</h2>
           Associate Professor
