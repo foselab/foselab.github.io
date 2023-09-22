@@ -4,7 +4,7 @@ title: CHANGES
 description: Cultural Heritage Active Innovation for Sustenable Society
 subdescription: PNRR PE
 importance: 1
-img: assets/img/changes.png
+img: assets/img/Changes.png
 category: work
 encoding: utf-8
 ---
