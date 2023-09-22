@@ -24,5 +24,6 @@ It builds on the existing MVM project (https://mvm.care) which had the goal to m
 ## Publications
 
 {% bibliography -f papers -q @*[key=10446_250709]* %}
+
 {% bibliography -f papers -q @*[key=10446_235451]* %}
 
