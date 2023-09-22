@@ -499,6 +499,7 @@
 	address = {Piscataway},
 	booktitle = {2022 IEEE International Conference on Autonomic Computing and Self-Organizing Systems Companion (ACSOS-C)},
 	doi = {10.1109/ACSOSC56246.2022.00025},
+	html = {https://doi.org/10.1109/ACSOSC56246.2022.00025},
 	isbn = {978-1-6654-5142-0},	
 	pages = {43--48}
 }
@@ -534,6 +535,7 @@
 	journal = {SOFTWARE TESTING VERIFICATION & RELIABILITY},
 	volume = {33},
 	doi = {10.1002/stvr.1835},
+	html = {https://doi.org/10.1002/stvr.1835},
 	pages = {1--34},
 	number = {2 (art. e1835)}
 }
@@ -546,6 +548,7 @@
 	publisher = {{IEEE}},
 	abstract  = {Combinatorial Interaction Testing has been applied to event-driven software systems by using as test suite a set of sequences of inputs in desired combinations. This is generally called combinatorial sequence testing (CST). CST requires possibly new system models from which tests are generated and new test generation methods (or an adaptation of the classical ones). Finite State Machines (FSMs) can easily represent event-based systems where certain inputs are valid only in some states and such constraints can be represented by the incompleteness of the FSM. In this paper, we propose an approach to CST where tests are generated from FSMs which are represented by automata together with test requirements. First, automata can be used to check if test sequences contain invalid inputs. We propose three methods to repair tests with invalid inputs. Moreover, we can directly embed into automata the system constraints over the inputs during generations, to generate only valid test sequences. We compare our automata-based method with the standard approach of Sequences Covering Arrays (SCAs) that produces a set of sequences, all with the same length, composed by the permutation of all the events supported by the system. We found that generating only valid tests from automata provides several advantages iv.r.t. repairing tests and SCAs.},
 	doi       = {10.1109/icstw50294.2020.00036},
+	html	  = {https://doi.org/10.1109/icstw50294.2020.00036},
 }
 @conference{Bombarda2021,
   	author    = {Andrea Bombarda and Edoardo Crippa and Angelo Gargantini},
@@ -556,6 +559,7 @@
   	publisher = {{IEEE}},
   	abstract  = {New tools for combinatorial test generation are proposed every year. However, different generators may have different performances on different models, in terms of the number of tests produced and generation time, so the choice of which generator has to be used can be challenging. Classical comparison between CIT generators considers only the number of tests composing the test suite. Still, especially when the time dedicated to testing activity is limited, generation time can be determinant. Thus, we propose a benchmarking framework including 1) a set of generic benchmark models, 2) an interface to easily integrate new generators, 3) methods to benchmark each generator against the others and to check validity and completeness. We have tested the proposed environment using five different generators (ACTS, CAgen, CASA, Medici, and PICT), comparing the obtained results in terms of the number of test cases and generation times, errors, completeness, and validity. Finally, we propose a CIT competition, between combinatorial generators, based on our framework.},
   	doi       = {10.1109/icstw52544.2021.00021},
+	html      = {https://doi.org/10.1109/icstw55395.2022.00027},
 }
 @conference{Bombarda2022a,
 	author    = {Andrea Bombarda and Angelo Gargantini},
@@ -566,6 +570,7 @@
 	publisher = {{IEEE}},
 	abstract  = {Combinatorial interaction testing (CIT) is a testing technique that has proved to be effective in finding faults due to the interaction among inputs, and in reducing the number of test cases. One of the most crucial parts of combinatorial testing is the test generation for which many tools and algorithms have been proposed in recent years, with different methodologies and performances. However, generating tests remains a complex procedure that can require a lot of effort (mainly time). Thus, in this paper, we present the tool pMEDICI which aims to reduce the test generation time by parallelizing the generation process and exploiting the recent multithread hardware architectures. It uses Multivalued Decision Diagrams (MDDs) for representing the constraints and the tuples to be tested and extracts from them the t-wise test cases. Our experiments confirm that our tool requires a shorter amount of time for generating combinatorial test suites, especially for complex models, with a lot of parameters and constraints.},
 	doi       = {10.1109/icstw55395.2022.00027},
+	html	  = {https://doi.org/10.1109/icstw55395.2022.00027},
 }
 @conference{Bombarda2023a,
         author    = {Andrea Bombarda and Angelo Gargantini},
@@ -574,7 +579,7 @@
   	year      = {2023},
   	month     = {apr},
   	publisher = {{IEEE}},
-  	url = {https://doi.org/10.1109/ICSTW58534.2023.00044},
+  	html = {https://doi.org/10.1109/ICSTW58534.2023.00044},
   	doi = {10.1109/ICSTW58534.2023.00044},
   	abstract  = {Many researchers have been focusing on building combinatorial test generators having the best possible performances, in terms of smaller test suites and shorter generation times. The majority of tools generates test suites from scratch. This means that when the test suite must be regenerated, the old tests are discarded and a new test suite is built. However, there are many cases in which old test cases, possibly written by hand, need to be (or could be) included in the final test suite, and the test suite completed with new tests in order to reach the desired level of combinatorial coverage. These existing tests that are reused are generally called \emph{seed tests}. Seed tests could be important for testing domain-specific critical parts of the system, or they could represent old test suites that must be enriched to reach the desired (possibly higher) strength of coverage. In this paper, we propose a new architecture for incremental test generation that starts from existing test seeds. This new architecture is supported by the pMEDICI+ tool which extends our previous effort done for pMEDICI. We evaluate the proposed approach on the benchmarks given in the context of the second edition of the CT-Competition and w.r.t. two application scenarios. For each scenario, we automatically generate seed tests and then we apply pMEDICI+ to obtain the desired test suite. The experiments highlight that using incremental test generation can contribute significantly in the reduction of test generation time and, in many cases, in the reduction of the test suite size.},
 }
@@ -595,10 +600,11 @@
 	abstract="Using architectural patterns is of paramount importance for guaranteeing the correct functionality, maintainability and modularity, especially for complex software systems. The model-view-controller (MVC) pattern is typically used in user interfaces (UIs), since it allows the separation between the internal representation of the information and the way it is shown to users. The main problem of using this approach in a formal setting, where formal models are used to specify the requirements and prove safety properties, is that those models are not directly used within the MVC pattern and, thus, all the activities performed at model-level are somehow lost when implementing the UI. For this reason, in this paper, we present the formal MVC pattern (fMVC), an extension of the classical MVC where the model is a formal specification, written using Abstract State Machines. This pattern is supported by the AsmetaFMVCLib, which allows the user to link the formal model with the view and the controller by using simple Java annotations. We present the application of fMVC on a simple example of a calculator for explanatory purposes, then we apply it to the AMAN case study, which has inspired the definition of fMVC. We discuss the advantages of fMVC and its shortcomings, trying to identify the scenarios where it should be applied and possible alternatives.",
 	isbn="978-3-031-33163-3",
 	doi="10.1007/978-3-031-33163-3_25"
+	html={https://doi.org/10.1007/978-3-031-33163-3_25},
 }
 @conference{Bombarda2023d,
   	doi = {10.1145/3579028.3609017},
-  	url = {https://doi.org/10.1145/3579028.3609017},
+  	html = {https://doi.org/10.1145/3579028.3609017},
   	year = {2023},
   	month = aug,
   	publisher = {{ACM}},
