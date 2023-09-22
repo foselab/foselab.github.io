@@ -4,6 +4,7 @@ title: QUASMED
 description: Quality of Medical Software
 subdescription: 
 importance: 2
+img: assets/img/Quasmed.png
 category: work
 encoding: utf-8
 ---
