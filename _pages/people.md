@@ -60,7 +60,7 @@ horizontal: false
 	    <img src="https://cs.unibg.it/bombarda/assets/images/about.jpg">
         <div class="card-body">
           <h2 class="card-title">Andrea Bombarda</h2>
-          PostDoc
+          Reasearcher (RTDa)
         </div>
      </div> </a>
   </div>
