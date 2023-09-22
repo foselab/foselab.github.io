@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SAFTEST - PRIN 2022
+title: SAFEST - PRIN 2022
 description: Trust assurance of Digital Twins for medical cyber-physical systems
 img: assets/img/safest.png
 importance: 1
@@ -31,9 +31,11 @@ will pursue these two goals by articulating them in the following two objectives
 multi-disciplinary models);
 *   O2: Trust assurances (behavioral conformance, safety, dependability, security, performance). O2
 The suitability and effectiveness of the proposed methods and tools will be evaluated through a case study in the medical domain.
+
 Scientific goals of the SAFEST project are in line with the following missions of the Italian national plan on Recovery and Resilience
 (PNRR), more precisely mission 1.2 “Digitisation, innovation and competitiveness of the production system”, mission 6.2 “Innovation,
 research and digitisation of healthcare”, and mission 4.2 “From research to business”.
+
 ### Partners
 
 **University of Bergamo**: Angelo Gargantini (PI), Patrizia Scandurra, Silvia Bonfanti
