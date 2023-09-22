@@ -64,7 +64,7 @@ horizontal: false
         </div>
      </div> </a>
   </div>
-</div></div>
+</div></div><br>
 
 ### Former members
 <div class="people">Marco Radavelli, PhD - graduated in October 2019</div>
