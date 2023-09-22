@@ -563,7 +563,8 @@
 	url = {https://doi.org/10.1002/stvr.1835},
 	html = {https://doi.org/10.1002/stvr.1835},
 	pages = {1--34},
-	number = {2 (art. e1835)}
+	number = {2 (art. e1835)},
+	abstract  = {In this paper, we present an approach to conformance testing based on abstract state machines (ASMs) that combines model refinement and test execution (RATE) and its application to three case studies. The RATE approach consists in generating test sequences from ASMs and checking the conformance between code and models in multiple iterations. The process follows these steps: (1) model the system as an abstract state machine; (2) validate and verify the model; (3) generate test sequences automatically from the ASM model; (4) execute the tests over the implementation and compute the code coverage; (5) if the coverage is below the desired threshold, then refine the abstract state machine model to add the uncovered functionalities and return to step 2. We have applied the proposed approach in three case studies: a traffic light control system (TLCS), the IEEE 11073-20601 personal health device (PHD) protocol, and the mechanical ventilator Milano (MVM). By applying RATE, at each refinement level, we have increased code coverage and identified some faults or conformance errors for all the case studies. The fault detection capability of RATE has also been confirmed by mutation analysis, in which we have highlighted that, many mutants can be killed even by the most abstract models.},
 }
 @conference{Bombarda2020,
 	author    = {Andrea Bombarda and Angelo Gargantini},
@@ -642,6 +643,7 @@
   	publisher = {{ACM}},
   	author = {Andrea Bombarda and Silvia Bonfanti and Angelo Gargantini},
   	title = {On the Reuse of Existing Configurations for Testing Evolving Feature Models},
-  	booktitle = {Proceedings of the 27th {ACM} International Systems and Software Product Line Conference - Volume B}
+  	booktitle = {Proceedings of the 27th {ACM} International Systems and Software Product Line Conference - Volume B},
+	abstract = {Software Product Lines (SPLs) are used for representing a variety of highly configurable systems or families of systems. They are commonly represented by feature models (FMs). Starting from FMs, configurations, used as test cases, can be generated to identify the products of interest for further activities. As the other types of software, SPLs and their FMs may evolve due to changing requirements or bug-fixing. However, no guidance is usually given on what to do with derived configurations when an FM evolves. The common approach is based on generating all configurations from scratch, which is not optimal since a greater effort is required for concretizing the new tests, and some of the old ones may be still applicable. In this paper, we present the use of a technique for generating combinatorial tests for evolving feature models: this technique incrementally builds the new combinatorial configuration set starting from the one generated from the previous model. Furthermore, we present a novel definition of dissimilarity among configuration sets that can be used to evaluate how much an evolved test suite differs from the previous one and thus allows evaluating the effort required for adapting old test cases to the new ones. Our experiments confirm that using the proposed technique, in general, leads to lower dissimilarity and test suite size w.r.t. the generation of tests from scratch.}
 }
 @Comment{jabref-meta: databaseType:bibtex;}
