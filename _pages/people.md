@@ -67,7 +67,7 @@ horizontal: false
 <div class="grid-item">
   <a href="">
      <div class="card hoverable">
-	    <img src="/assets/img/Nicola">
+	    <img src="/assets/img/Nicola.jpg">
         <div class="card-body">
           <h2 class="card-title">Nicola Zeni</h2>
           Reasearcher (RTDa)
