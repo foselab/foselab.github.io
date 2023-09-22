@@ -20,3 +20,7 @@ It builds on the existing MVM project (https://mvm.care) which had the goal to m
 **Gran Sasso Science Institute**: Catia Trubiani, Patrizio Pelliccione, and Martina De Sanctis
 
 **Università degli Studi di Milano**: Elvinia Riccobene
+
+## Publications
+
+{% bibliography -f papers -q @*[note={[MVMAdapt]}]* %}
