@@ -1,6 +1,6 @@
 ---
 layout: about
-title: open positions
+title: Open positions
 permalink: /positions
 nav: true
 nav_order: 1
