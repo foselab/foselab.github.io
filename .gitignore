@@ -16,3 +16,4 @@ vendor
 *.bak
 *.tmp
 _bibliography/papers.bib.sav
+/positions.md
