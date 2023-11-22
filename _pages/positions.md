@@ -14,7 +14,7 @@ The University of Bergamo has three open positions in computer science and compu
 
 ___
 
-##1. Tenure-track faculty researcher position (RTT)
+## 1. Tenure-track faculty researcher position (RTT)
 
 An RTT is the equivalent of an Assistant Professor position in the Italian system, and the promotion to Associate professor is automatically granted if the researcher obtains the national qualification (ASN). The position includes the possibility to apply for funding. The position is reserved for those who have not worked for the University of Bergamo in the last thirty-six months (details are in the call)
 
@@ -85,6 +85,6 @@ Teaching is not mandatory but if done it will contribute to increase the grant.
 
 ___
 
-Service location: Dalmine (BG) - where the engineering campus @UniBG is located. 
+**Service location**: Dalmine (BG) - where the engineering campus @UniBG is located. 
 
-Bergamo is a small city, yes it is very rich in history and culture (see the recent article https://www.ft.com/content/02497aca-c22d-431e-918f-011b91406ef1) Salary follows the rate fixed at the national level (details in the call). A tax benefit is provided to researchers coming from abroad. Additional personal funds are also offered on top of the salary, and several university calls for research funding can also support the researcher for traveling and research collaborations.  
+Bergamo is a small city, yes it is very rich in history and culture (see the recent article <https://www.ft.com/content/02497aca-c22d-431e-918f-011b91406ef1>) Salary follows the rate fixed at the national level (details in the call). A tax benefit is provided to researchers coming from abroad. Additional personal funds are also offered on top of the salary, and several university calls for research funding can also support the researcher for traveling and research collaborations.  
