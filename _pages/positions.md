@@ -10,8 +10,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-The University of Bergamo has three open positions in computer science and computer engineering - related to software engineering.
+The University of Bergamo has three open positions in computer science and computer engineering - related to software engineering.  
 
+Bergamo is a small city, yet it is very rich in history and culture (see the recent article <https://www.ft.com/content/02497aca-c22d-431e-918f-011b91406ef1>). Salaries follow the rate fixed at the national level (details in the call). A tax benefit is provided to researchers coming from abroad. Additional personal funds are also offered on top of the salary, and several university calls for research funding can also support the researcher for traveling and research collaborations.  
 ___
 
 ## 1. Tenure-track faculty researcher position (RTT)
@@ -62,7 +63,7 @@ Teaching is not mandatory but if done it will contribute to increase the grant.
 **Link to the official call:**
 <https://www.unibg.it/bandi/codice-pica-23ar029-bando-relativo-selezione-pubblica-titoli-e-colloquio-conferimento-n-21> (code 8)
 
-#### Deadline:  21 December 2023
+#### Deadline:  5 January 2024 (new date)
 ___
 
 ## 3. Research Fellow (assegno di ricerca) Early Stage
@@ -81,10 +82,9 @@ Teaching is not mandatory but if done it will contribute to increase the grant.
 
 <https://www.unibg.it/bandi/codice-pica-23ar027-bando-relativo-selezione-pubblica-titoli-e-colloquio-conferimento-n-28> (code 15)
 
-#### Deadline: 13 December 2023
+#### Deadline: 28 December 2023  (new date)
 
 ___
 
 **Service location**: Dalmine (BG) - where the engineering campus @UniBG is located. 
 
-Bergamo is a small city, yes it is very rich in history and culture (see the recent article <https://www.ft.com/content/02497aca-c22d-431e-918f-011b91406ef1>) Salary follows the rate fixed at the national level (details in the call). A tax benefit is provided to researchers coming from abroad. Additional personal funds are also offered on top of the salary, and several university calls for research funding can also support the researcher for traveling and research collaborations.  
