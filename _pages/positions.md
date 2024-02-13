@@ -63,7 +63,7 @@ Teaching is not mandatory but if done it will contribute to increase the grant.
 **Link to the official call:**
 <https://www.unibg.it/bandi/codice-pica-23ar029-bando-relativo-selezione-pubblica-titoli-e-colloquio-conferimento-n-21> (code 8)
 
-#### Deadline:  5 January 2024 (new date)
+#### Deadline:  still to be decided (the call is still open)
 ___
 
 ## 3. Research Fellow (assegno di ricerca) Early Stage
@@ -82,7 +82,7 @@ Teaching is not mandatory but if done it will contribute to increase the grant.
 
 <https://www.unibg.it/bandi/codice-pica-23ar027-bando-relativo-selezione-pubblica-titoli-e-colloquio-conferimento-n-28> (code 15)
 
-#### Deadline: 28 December 2023  (new date)
+#### Deadline: still to be decided (the call is still open)
 
 ___
 
