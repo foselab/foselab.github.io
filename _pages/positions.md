@@ -34,7 +34,7 @@ technologies.
 
 Teaching is not mandatory but if done it will contribute to increase the grant.
 
-**Link to the official call:**
+**Link to the official call:**\
 <https://www.unibg.it/bandi/codice-pica-24ar012-bando-relativo-selezione-pubblica-titoli-e-colloquio-conferimento-n-9> **(CODE 5)**
 
 #### Deadline: 3 June 2024
@@ -52,8 +52,7 @@ The focus is on "Trust assurance of Digital Twins for medical cyber-physical sys
 
 Teaching is not mandatory but if done it will contribute to increase the grant.
 
-**Link to the official call:**
-
+**Link to the official call:**\
 <https://www.unibg.it/bandi/codice-pica-24ar009-bando-relativo-selezione-pubblica-titoli-e-colloquio-conferimento-n-8> (CODE 3)
 
 #### Deadline: 24th May 2024
