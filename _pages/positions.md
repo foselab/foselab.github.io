@@ -15,7 +15,7 @@ The University of Bergamo has three open positions in computer science and compu
 Bergamo is a small city, yet it is very rich in history and culture (see the recent article <https://www.ft.com/content/02497aca-c22d-431e-918f-011b91406ef1>). Salaries follow the rate fixed at the national level (details in the call). A tax benefit is provided to researchers coming from abroad. Additional personal funds are also offered on top of the salary, and several university calls for research funding can also support the researcher for traveling and research collaborations.  
 ___
 
-## 1. Research Fellow (assegno di ricerca) PostDoc for 3 years
+## 1. Research Fellow (assegno di ricerca) PostDoc for 2 years
 
 The  position is for a PostDoc research fellow (PhD title is required). Project title: *"MISAI - Metodologie di Ingegnerizzazione di Sistemi Autonomi Intelligenti"*
 
@@ -40,7 +40,7 @@ Teaching is not mandatory but if done it will contribute to increase the grant.
 #### Deadline: 3 June 2024
 ___
 
-## 2. Research Fellow (assegno di ricerca) Early Stage
+## 2. Research Fellow (assegno di ricerca) Early Stage for 18 months
 
 The position is for a research fellow (PhD title is NOT required to apply). The ideal candidate is a PhD student who is going to finish in the next few months his/her PhD course - but also students recently graduated at master level is fine.
 
