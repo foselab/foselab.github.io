@@ -368,5 +368,11 @@
         <div style="text-align: center;">{% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
       </div>
     {% endif %}
+
+    {% if entry.funding %}
+      <!-- FUNDING -->
+        <b>Funding:</b> {{ entry.funding}}
+      </div>
+    {% endif %}
   </div>
 </div>
