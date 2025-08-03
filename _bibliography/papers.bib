@@ -54,19 +54,6 @@
   location   = {Tallinn Estonia},
 }
 
-@conference{Bombarda2020,
-	author    = {Andrea Bombarda and Angelo Gargantini},
-	title     = {An Automata-Based Generation Method for Combinatorial Sequence Testing of Finite State Machines},
-	booktitle = {2020 {IEEE} International Conference on Software Testing, Verification and Validation Workshops ({ICSTW})},
-	  bibtex_show = {true}, year      = {2020},
-	month     = {oct},
-	publisher = {{IEEE}},
-	abstract  = {Combinatorial Interaction Testing has been applied to event-driven software systems by using as test suite a set of sequences of inputs in desired combinations. This is generally called combinatorial sequence testing (CST). CST requires possibly new system models from which tests are generated and new test generation methods (or an adaptation of the classical ones). Finite State Machines (FSMs) can easily represent event-based systems where certain inputs are valid only in some states and such constraints can be represented by the incompleteness of the FSM. In this paper, we propose an approach to CST where tests are generated from FSMs which are represented by automata together with test requirements. First, automata can be used to check if test sequences contain invalid inputs. We propose three methods to repair tests with invalid inputs. Moreover, we can directly embed into automata the system constraints over the inputs during generations, to generate only valid test sequences. We compare our automata-based method with the standard approach of Sequences Covering Arrays (SCAs) that produces a set of sequences, all with the same length, composed by the permutation of all the events supported by the system. We found that generating only valid tests from automata provides several advantages iv.r.t. repairing tests and SCAs.},
-	doi       = {10.1109/icstw50294.2020.00036},
-	url	  = {https://doi.org/10.1109/icstw50294.2020.00036},
-	html	  = {https://doi.org/10.1109/icstw50294.2020.00036},
-}
-
 @conference{Bombarda2021,
   	author    = {Andrea Bombarda and Edoardo Crippa and Angelo Gargantini},
   	title     = {An environment for benchmarking combinatorial test suite generators},
@@ -280,6 +267,66 @@
   doi         = {10.1002/stvr.1835},
   html        = {https://doi.org/10.1002/stvr.1835},
   url         = {https://doi.org/10.1002/stvr.1835},
+}
+
+
+
+
+
+
+
+@InProceedings{Bombarda2019,
+  author    = {Andrea Bombarda and Silvia Bonfanti and Angelo Gargantini},
+  title     = {Developing Medical Devices from Abstract State Machines to Embedded Systems: A Smart Pill Box Case Study},
+  booktitle = {Software Technology: Methods and Tools},
+  publisher = {Springer International Publishing},
+  year      = {2019},
+  pages     = {89--103},
+  abstract  = {The development of medical devices is a safety-critical process, because a failure or a malfunction of the device can cause serious injuries to the patients whom use it. The application of a rigorous process for their development reduces the risk of failures since validation and verification activities can be performed in a objective, reproducible, and documentable manner. In this paper we present an approach based on the Abstract State Machine (ASM) formal method. Starting from the model, validation and verification (V&V) techniques can be applied. Furthermore, by step-wise refinement, a final model can be obtained, which can be automatically translated to  code. The process is applied to the smart pill box case study. Starting from the ASM model, we generate  code for the Arduino platform after the application of V&V activities. Furthermore, we introduce regulation (IEC62304) and guidelines (FDA General Principles of Software Validation) that support the developer in medical software development. In particular, we explain how ASMs formal process can be compliant with them.},
+  comment   = {Best student paper award},
+  doi       = {10.1007/978-3-030-29852-4_7},
+  url       = {https://doi.org/10.1007/978-3-030-29852-4_7},
+  html      = {https://doi.org/10.1007/978-3-030-29852-4_7}
+}
+
+@InProceedings{Bombarda2019a,
+  author    = {Andrea Bombarda and Silvia Bonfanti and Angelo Gargantini and Marco Radavelli and Feng Duan and Yu Lei},
+  title     = {Combining Model Refinement and Test Generation for Conformance Testing of the {IEEE} {PHD} Protocol Using Abstract State Machines},
+  booktitle = {Testing Software and Systems},
+  publisher = {Springer International Publishing},
+  year      = {2019},
+  pages     = {67--85},
+  abstract  = {In this paper we propose a new approach to conformance testing based on Abstract State Machine (ASM) model refinement. It consists in generating test sequences from ASM models and checking the conformance between code and models in multiple iterations. This process is applied at different models, starting from the more abstract model to the one that is very close to the code. The process consists of the following steps: (1) model the system as an Abstract State Machine, (2) generate test sequences based on the ASM model, (3) compute the code coverage using generated tests, (4) if the coverage is low refine the Abstract State Machine and return to step 2. We have applied the proposed approach to Antidote, an open-source implementation of IEEE 11073-20601 Personal Health Device (PHD) protocol which allows personal healthcare devices to exchange data with other devices such as small computers and smartphones.},
+  doi       = {10.1007/978-3-030-31280-0_5},
+  url       = {https://doi.org/10.1007/978-3-030-31280-0_5},
+  html      = {https://doi.org/10.1007/978-3-030-31280-0_5}
+}
+
+@InProceedings{Arcaini2020,
+  author    = {Paolo Arcaini and Andrea Bombarda and Silvia Bonfanti and Angelo Gargantini},
+  title     = {Dealing with Robustness of Convolutional Neural Networks for Image Classification},
+  booktitle = {2020 {IEEE} International Conference On Artificial Intelligence Testing ({AITest})},
+  year      = {2020},
+  month     = {aug},
+  publisher = {{IEEE}},
+  abstract  = {SW-based systems depend more and more on AI also for critical tasks. For instance, the use of machine learning, especially for image recognition, is increasing ever more. As state-of-the-art, Convolutional Neural Networks (CNNs) are the most adopted techniques for image classification. Although they are proved to have optimal results, it is not clear what happens when unforeseen modifications during the image acquisition and elaboration occur. Thus, it is very important to assess the robustness of a CNN, especially when it is used in a safety critical system, as, e.g., in the medical domain or in automated driving systems. Most of the analyses made about the robustness of CNNs are focused on adversarial examples which are created by exploiting the CNN internal structure; however, these are not the only problems we can encounter with CNNs and, moreover, they may be unlikely in some fields. This is why, in this paper, we focus on the robustness analysis when plausible alterations caused by an error during the acquisition of the input images occur. We give a novel definition of robustness w.r.t. possible input alterations for a CNN and we propose a framework to compute it. Moreover, we analyse four methods (data augmentation, limited data augmentation, network parallelization, and limited network parallelization) which can be used to improve the robustness of a CNN for image classification. Analyses are conducted over a dataset of histologic images.},
+  comment   = {Best paper on AI-based testing},
+  doi       = {10.1109/aitest49225.2020.00009},
+  url       = {https://doi.org/10.1109/aitest49225.2020.00009},
+  html      = {https://doi.org/10.1109/aitest49225.2020.00009}
+}
+
+@InProceedings{Bombarda2020,
+  author    = {Andrea Bombarda and Angelo Gargantini},
+  title     = {An Automata-Based Generation Method for Combinatorial Sequence Testing of Finite State Machines},
+  booktitle = {2020 {IEEE} International Conference on Software Testing, Verification and Validation Workshops ({ICSTW})},
+  year      = {2020},
+  month     = {oct},
+  publisher = {{IEEE}},
+  abstract  = {Combinatorial Interaction Testing has been applied to event-driven software systems by using as test suite a set of sequences of inputs in desired combinations. This is generally called combinatorial sequence testing (CST). CST requires possibly new system models from which tests are generated and new test generation methods (or an adaptation of the classical ones). Finite State Machines (FSMs) can easily represent event-based systems where certain inputs are valid only in some states and such constraints can be represented by the incompleteness of the FSM. In this paper, we propose an approach to CST where tests are generated from FSMs which are represented by automata together with test requirements. First, automata can be used to check if test sequences contain invalid inputs. We propose three methods to repair tests with invalid inputs. Moreover, we can directly embed into automata the system constraints over the inputs during generations, to generate only valid test sequences. We compare our automata-based method with the standard approach of Sequences Covering Arrays (SCAs) that produces a set of sequences, all with the same length, composed by the permutation of all the events supported by the system. We found that generating only valid tests from automata provides several advantages iv.r.t. repairing tests and SCAs.},
+  doi       = {10.1109/icstw50294.2020.00036},
+  url       = {https://doi.org/10.1109/icstw50294.2020.00036},
+  html       = {https://doi.org/10.1109/icstw50294.2020.00036}
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
