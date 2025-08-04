@@ -26,22 +26,6 @@
   pages = {111920}
 }
 
-@InProceedings{ICST22,
-  author       = {Arcaini, Paolo and Bombarda, Andrea and Bonfanti, Silvia and Gargantini, Angelo and Gamba, Daniele and Pedercini, Rita},
-  booktitle    = {2022 IEEE Conference on Software Testing, Verification and Validation (ICST)},
-  title        = {Robustness assessment and improvement of a neural network for blood oxygen pressure estimation},
-  year         = {2022},
-  address      = {Piscataway},
-  organization = {IEEE},
-  pages        = {312--322},
-  publisher    = {IEEE},
-  bibtex_show  = {true},
-  doi          = {10.1109/ICST53961.2022.00040},
-  html         = {https://doi.org/10.1109/ICST53961.2022.00040},
-  isbn         = {978-1-6654-6679-0},
-  url          = {https://doi.org/10.1109/ICST53961.2022.00040},
-}
-
 @Conference{Bombarda2023-fz,
   author     = {Bombarda, Andrea and Gargantini, Angelo and Calvagna, Andrea},
   booktitle  = {Proceedings of the 38th {ACM/SIGAPP} Symposium on Applied Computing},
@@ -52,19 +36,6 @@
   publisher  = {ACM},
   conference = {SAC '23: 38th ACM/SIGAPP Symposium on Applied Computing},
   location   = {Tallinn Estonia},
-}
-
-@conference{Bombarda2022a,
-	author    = {Andrea Bombarda and Angelo Gargantini},
-	title     = {Parallel Test Generation for Combinatorial Models Based on Multivalued Decision Diagrams},
-	booktitle = {2022 {IEEE} International Conference on Software Testing, Verification and Validation Workshops ({ICSTW})},
-	  bibtex_show = {true}, year      = {2022},
-	month     = {apr},
-	publisher = {{IEEE}},
-	abstract  = {Combinatorial interaction testing (CIT) is a testing technique that has proved to be effective in finding faults due to the interaction among inputs, and in reducing the number of test cases. One of the most crucial parts of combinatorial testing is the test generation for which many tools and algorithms have been proposed in recent   bibtex_show = {true}, years, with different methodologies and performances. However, generating tests remains a complex procedure that can require a lot of effort (mainly time). Thus, in this paper, we present the tool pMEDICI which aims to reduce the test generation time by parallelizing the generation process and exploiting the recent multithread hardware architectures. It uses Multivalued Decision Diagrams (MDDs) for representing the constraints and the tuples to be tested and extracts from them the t-wise test cases. Our experiments confirm that our tool requires a shorter amount of time for generating combinatorial test suites, especially for complex models, with a lot of parameters and constraints.},
-	doi       = {10.1109/icstw55395.2022.00027},
-	url	  = {https://doi.org/10.1109/icstw55395.2022.00027},
-	html	  = {https://doi.org/10.1109/icstw55395.2022.00027},
 }
 
 @conference{Bombarda2023a,
@@ -198,23 +169,6 @@
   publisher = {IEEE},
   doi       = {10.1109/icstw64639.2025.10962457},
   pdf 		= {Search-Based_Benchmark_Generator_IWCT25.pdf}
-}
-
-@InProceedings{icst_22,
-  author       = {Arcaini, Paolo and Bombarda, Andrea and Bonfanti, Silvia and Gargantini, Angelo and Gamba, Daniele and Pedercini, Rita},
-  booktitle    = {2022 IEEE Conference on Software Testing, Verification and Validation (ICST)},
-  title        = {Robustness assessment and improvement of a neural network for blood oxygen pressure estimation},
-  year         = {2022},
-  address      = {Piscataway},
-  month        = apr,
-  organization = {IEEE},
-  pages        = {312--322},
-  publisher    = {IEEE},
-  bibtex_show  = {true},
-  doi          = {10.1109/ICST53961.2022.00040},
-  html         = {https://doi.org/10.1109/ICST53961.2022.00040},
-  isbn         = {978-1-6654-6679-0},
-  url          = {https://doi.org/10.1109/ICST53961.2022.00040},
 }
 
 @Article{Bonfanti2025,
@@ -452,6 +406,104 @@
   doi      = {http://hdl.handle.net/10446/202112},
   url      = {http://hdl.handle.net/10446/202112},
   html      = {http://hdl.handle.net/10446/202112},
+  bibtex_show = {true}
+}
+
+@InProceedings{Bombarda2022,
+  author    = {Andrea Bombarda and Silvia Bonfanti and Angelo Gargantini},
+  title     = {Automatic Test Generation with~{ASMETA} for~the~Mechanical Ventilator Milano Controller},
+  booktitle = {Testing Software and Systems},
+  publisher = {Springer International Publishing},
+  year      = {2022},
+  pages     = {65--72},
+  abstract  = {This paper presents an automatic test cases generation method from Abstract State Machine specifications. Starting from the ASMETA specification, the proposed approach applies the following steps: 1. Generation of abstract tests from a ASMETA model; 2. Optimization of the abstract tests; 3. Concretization of the abstract tests in GoogleTest; 4. Execution of the concrete tests on  code. We have applied this approach to the Mechanical Ventilator Milano (MVM) project, which our research group has contributed to develop, test, and certify during the Covid-19 pandemic.},
+  doi       = {10.1007/978-3-031-04673-5_5},
+  url      = {https://doi.org/10.1007/978-3-031-04673-5_5},
+  html      = {https://doi.org/10.1007/978-3-031-04673-5_5},
+  bibtex_show = {true}
+}
+
+@InProceedings{Arcaini2022,
+  author    = {Paolo Arcaini and Andrea Bombarda and Silvia Bonfanti and Angelo Gargantini and Daniele Gamba and Rita Pedercini},
+  title     = {Robustness assessment and improvement of a neural network for blood oxygen pressure estimation},
+  booktitle = {2022 {IEEE} Conference on Software Testing, Verification and Validation ({ICST})},
+  year      = {2022},
+  month     = {apr},
+  publisher = {{IEEE}},
+  abstract  = {Neural networks have been widely applied for performing tasks in critical domains, such as, for example, the medical domain; their robustness is, therefore, important to be guaranteed. In this paper, we propose a robustness definition for neural networks used for regression, by tackling some of the problems of existing robustness definitions. First of all, by following recent works done for classification problems, we propose to define the robustness of networks used for regression w.r.t. alterations of their input data that can happen in reality. Since different alteration levels are not always equally probable, the robustness definition is parameterized with the probability distribution of the alterations. The error done by this type of networks is quantifiable as the difference between the estimated value and the expected value; since not all the errors are equally critical, the robustness definition is also parameterized with a “tolerance” function that specifies how the error is tolerated. The current work has been motivated by the collaboration with the industrial partner that has implemented a medical sensor employing a Multilayer Perceptron for the estimation of the blood oxygen pressure. After having computed the robustness for the case study, we have successfully applied three techniques to improve the network robustness: data augmentation with recombined data, data augmentation with altered data, and incremental learning. All the techniques have proved to contribute to increasing the robustness, though in different ways.},
+  doi       = {10.1109/icst53961.2022.00040},
+  url      = {https://doi.org/10.1109/icst53961.2022.00040},
+  html      = {https://doi.org/10.1109/icst53961.2022.00040},
+  bibtex_show = {true}
+}
+
+@InProceedings{Bombarda2022a,
+  author    = {Andrea Bombarda and Angelo Gargantini},
+  title     = {Parallel Test Generation for Combinatorial Models Based on Multivalued Decision Diagrams},
+  booktitle = {2022 {IEEE} International Conference on Software Testing, Verification and Validation Workshops ({ICSTW})},
+  year      = {2022},
+  month     = {apr},
+  publisher = {{IEEE}},
+  abstract  = {Combinatorial interaction testing (CIT) is a testing technique that has proved to be effective in finding faults due to the interaction among inputs, and in reducing the number of test cases. One of the most crucial parts of combinatorial testing is the test generation for which many tools and algorithms have been proposed in recent years, with different methodologies and performances. However, generating tests remains a complex procedure that can require a lot of effort (mainly time). Thus, in this paper, we present the tool pMEDICI which aims to reduce the test generation time by parallelizing the generation process and exploiting the recent multithread hardware architectures. It uses Multivalued Decision Diagrams (MDDs) for representing the constraints and the tuples to be tested and extracts from them the t-wise test cases. Our experiments confirm that our tool requires a shorter amount of time for generating combinatorial test suites, especially for complex models, with a lot of parameters and constraints.},
+  doi       = {10.1109/icstw55395.2022.00027},
+  url      = {https://doi.org/10.1109/icstw55395.2022.00027},
+  html      = {https://doi.org/10.1109/icstw55395.2022.00027},
+  bibtex_show = {true}
+}
+
+@Article{Bombarda2022b,
+  author    = {Andrea Bombarda and Silvia Bonfanti and Cristiano Galbiati and Angelo Gargantini and Patrizio Pelliccione and Elvinia Riccobene and Masayuki Wada},
+  title     = {Guidelines for the development of a critical software under emergency},
+  journal   = {Information and Software Technology},
+  year      = {2022},
+  pages     = {107061},
+  month     = {sep},
+  abstract  = {Context:
+During the first wave of the COVID-19 pandemic, an international and heterogeneous team of scientists collaborated on a social project to produce a mechanical ventilator for intensive care units (MVM). MVM has been conceived to be produced and used also in poor countries: it is open-source, no patents, cheap, and can be produced with materials that are easy to retrieve.
+
+Objective:
+The objective of this work is to extract from the experience of the MVM development and software certification a set of lessons learned and then guidelines that can help developers to produce safety-critical devices in similar emergency situations.
+
+Method:
+We conducted a case study. We had full access to source code, comments on code, change requests, test reports, every deliverable (60 in total) produced for the software certification (safety concepts, requirements specifications, architecture and design, testing activities, etc.), notes, whiteboard sketches, emails, etc. We validated both lessons learned and guidelines with experts.
+
+Findings:
+We contribute a set of validated lessons learned and a set of validated guidelines, together with a discussion of benefits and risks of each guideline.
+
+Conclusion:
+In this work we share our experience in certifying software for healthcare devices produced under emergency, i.e. with strict and pressing time constraints and with the difficulty of establishing a heterogeneous development team made of volunteers. We believe that the guidelines will help engineers during the development of critical software under emergency.},
+  doi       = {10.1016/j.infsof.2022.107061},
+  publisher = {Elsevier {BV}},
+  url      = {https://doi.org/10.1016/j.infsof.2022.107061},
+  html      = {https://doi.org/10.1016/j.infsof.2022.107061},
+  bibtex_show = {true}
+}
+
+@InProceedings{Bombarda2022c,
+  author    = {Andrea Bombarda and Silvia Bonfanti and Martina De Sanctis and Angelo Gargantini and Patrizio PelliccioneT and Elvinia Riccobene and Patrizia Scandurra},
+  title     = {Towards an Evaluation Framework for Autonomous Systems},
+  booktitle = {2022 {IEEE} International Conference on Autonomic Computing and Self-Organizing Systems Companion ({ACSOS}-C)},
+  year      = {2022},
+  month     = {sep},
+  publisher = {{IEEE}},
+  abstract  = {Despite the active and proficuous research in autonomous and self-adaptive systems of the last years, an evaluation framework to assess abilities related to adaption and to provide guidance to make a system smarter is still missing. In this paper, we perform the first steps towards an evaluation framework for autonomous systems to (i) make an assessment of a system from the perspective of its capacity to adapt and learn over time to handle new and unexpected conditions, (ii) explore and identify the possible pathways of improvement of the smart abilities (e.g., decisional autonomy, adaptability, perception, interaction, etc.) of a system, (iii) make a re-assessment when the improvement has been performed.},
+  doi       = {10.1109/acsosc56246.2022.00025},
+  url      = {https://doi.org/10.1109/acsosc56246.2022.00025},
+  html      = {https://doi.org/10.1109/acsosc56246.2022.00025},
+  bibtex_show = {true}
+}
+
+@Article{Bombarda2022d,
+  author    = {Andrea Bombarda and Silvia Bonfanti and Angelo Gargantini and Yu Lei and Feng Duan},
+  title     = {{RATE}: A model-based testing approach that combines model refinement and test execution},
+  journal   = {Software Testing, Verification and Reliability},
+  year      = {2022},
+  month     = {dec},
+  abstract  = {In this paper, we present an approach to conformance testing based on abstract state machines (ASMs) that combines model refinement and test execution (RATE) and its application to three case studies. The RATE approach consists in generating test sequences from ASMs and checking the conformance between code and models in multiple iterations. The process follows these steps: (1) model the system as an abstract state machine; (2) validate and verify the model; (3) generate test sequences automatically from the ASM model; (4) execute the tests over the implementation and compute the code coverage; (5) if the coverage is below the desired threshold, then refine the abstract state machine model to add the uncovered functionalities and return to step 2. We have applied the proposed approach in three case studies: a traffic light control system (TLCS), the IEEE 11073-20601 personal health device (PHD) protocol, and the mechanical ventilator Milano (MVM). By applying RATE, at each refinement level, we have increased code coverage and identified some faults or conformance errors for all the case studies. The fault detection capability of RATE has also been confirmed by mutation analysis, in which we have highlighted that, many mutants can be killed even by the most abstract models.},
+  doi       = {10.1002/stvr.1835},
+  publisher = {Wiley},
+  url      = {https://doi.org/10.1002/stvr.1835},
+  html      = {https://doi.org/10.1002/stvr.1835},
   bibtex_show = {true}
 }
 
