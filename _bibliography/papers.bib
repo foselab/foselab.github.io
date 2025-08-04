@@ -390,4 +390,35 @@
   bibtex_show = {true}
 }
 
+@InProceedings{Bombarda2021b,
+  author    = {Andrea Bombarda and Silvia Bonfanti and Cristiano Galbiati and Angelo Gargantini and Patrizio Pelliccione and Elvinia Riccobene and Masayuki Wada},
+  title     = {Lessons Learned from the Development of a Mechanical Ventilator for {COVID}-19},
+  booktitle = {2021 {IEEE} 32nd International Symposium on Software Reliability Engineering ({ISSRE})},
+  year      = {2021},
+  month     = {oct},
+  publisher = {{IEEE}},
+  abstract  = {During the COVID-19 pandemic, many researchers all over the world have offered their time and competencies to face the heavy consequences of the disease. This is the case of a group of physicists, engineers, and physicians that around the middle of March 2020 started to develop a simplified mechanical lung ventilator, called MVM (Mechanical Ventilator Milano), to answer the high request of ventilators for Acute Respiratory Distress Syndrome (ARDS) in intensive care units. A prototype was ready in around one month. Since medical software malfunctions can lead to injuries or death of patients, before marketing MVM ventilators and distributing them in hospitals, software certification in accordance with the IEC 62304 standard was mandatory to guarantee system reliability. The team was then complemented by computer scientists specifically devoted to this task. The software re-engineering process, which lasted around two months from the end of the prototype, brought to a strong re-implementation of the device software components, which involved all the stakeholders in a continuous integration setting. In this paper, we report the experience of the MVM control SW re-engineering necessary to show evidence that the SW adheres to the standards and to consequently obtain the certification. We share results and lessons learned from this social project, where more than 100 volunteer researchers worked towards software certification at the extreme of their strength to get a real device finished in a rush since strongly required to support physicians in treating COVID-19 patients.},
+  doi       = {10.1109/issre52982.2021.00016},
+  url       = {https://doi.org/10.1109/issre52982.2021.00016},
+  html      = {https://doi.org/10.1109/issre52982.2021.00016},
+  bibtex_show = {true}
+}
+
+@InProceedings{Bombarda2021c,
+  author       = {Andrea Bombarda and Silvia Bonfanti and Angelo Gargantini and Elvinia Riccobene},
+  title        = {Developing a Prototype of a Mechanical Ventilator Controller from Requirements to Code with ASMETA},
+  abstract     = {Rigorous development processes aim to be effective in developing critical systems, especially if failures can have catastrophic consequences for humans and the environment. Such processes generally rely on formal methods, which can guarantee, thanks to their mathematical foundation, model preciseness, and properties assurance. However, they are rarely adopted in practice. In this paper, we report our experience in using the Abstract State Machine formal method and the ASMETA framework in developing a prototype of the control software of the MVM (Mechanical Ventilator Milano), a mechanical lung ventilator that has been designed, successfully certified, and deployed during the COVID-19 pandemic. Due to time constraints and lack of skills, no formal method was applied for the MVM project. However, we here want to assess the feasibility of developing (part of) the ventilator by using a formal method-based approach. Our development process starts from a high-level formal specification of the system to describe the MVM main operation modes. Then, through a sequence of refined models, all the other requirements are captured, up to a level in which a C++ implementation of a prototype of the MVM controller is automatically generated from the model, and tested. Along the process, at each refinement level, different model validation and verification activities are performed, and each refined model is proved to be a correct refinement of the previous level. By means of the MVM case study, we evaluate the effectiveness and usability of our formal approach.},
+  date         = {2021-11-16},
+  doi          = {10.4204/EPTCS.349.2},
+  eprint       = {http://arxiv.org/abs/2111.08204v1},
+  eprintclass  = {cs.FL},
+  eprinttype   = {arXiv},
+  file         = {:http\://arxiv.org/pdf/2111.08204v1:PDF},
+  journaltitle = {EPTCS 349, 2021, pp. 13-29},
+  keywords     = {cs.FL, cs.SE},
+  url       = {https://doi.org/10.4204/EPTCS.349.2},
+  html      = {https://doi.org/10.4204/EPTCS.349.2},
+  bibtex_show = {true}
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
