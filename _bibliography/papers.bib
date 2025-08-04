@@ -26,65 +26,6 @@
   pages = {111920}
 }
 
-@Conference{Bombarda2023-fz,
-  author     = {Bombarda, Andrea and Gargantini, Angelo and Calvagna, Andrea},
-  booktitle  = {Proceedings of the 38th {ACM/SIGAPP} Symposium on Applied Computing},
-  title      = {Multi-thread Combinatorial Test Generation with {SMT} solvers},
-    bibtex_show = {true}, year       = {2023},
-  address    = {New York, NY, USA},
-  month      = mar,
-  publisher  = {ACM},
-  conference = {SAC '23: 38th ACM/SIGAPP Symposium on Applied Computing},
-  location   = {Tallinn Estonia},
-}
-
-@conference{Bombarda2023a,
-        author    = {Andrea Bombarda and Angelo Gargantini},
-  	title     = {Incremental generation of combinatorial test suites starting from existing seed tests},
-  	booktitle = {2023 {IEEE} International Conference on Software Testing, Verification and Validation Workshops ({ICSTW})},
-  	  bibtex_show = {true}, year      = {2023},
-  	month     = {apr},
-  	publisher = {{IEEE}},
-  	url = {https://doi.org/10.1109/ICSTW58534.2023.00044},
-	html = {https://doi.org/10.1109/ICSTW58534.2023.00044},
-  	doi = {10.1109/ICSTW58534.2023.00044},
-  	abstract  = {Many researchers have been focusing on building combinatorial test generators having the best possible performances, in terms of smaller test suites and shorter generation times. The majority of tools generates test suites from scratch. This means that when the test suite must be regenerated, the old tests are discarded and a new test suite is built. However, there are many cases in which old test cases, possibly written by hand, need to be (or could be) included in the final test suite, and the test suite completed with new tests in order to reach the desired level of combinatorial coverage. These existing tests that are reused are generally called \emph{seed tests}. Seed tests could be important for testing domain-specific critical parts of the system, or they could represent old test suites that must be enriched to reach the desired (possibly higher) strength of coverage. In this paper, we propose a new architecture for incremental test generation that starts from existing test seeds. This new architecture is supported by the pMEDICI+ tool which extends our previous effort done for pMEDICI. We evaluate the proposed approach on the benchmarks given in the context of the second edition of the CT-Competition and w.r.t. two application scenarios. For each scenario, we automatically generate seed tests and then we apply pMEDICI+ to obtain the desired test suite. The experiments highlight that using incremental test generation can contribute significantly in the reduction of test generation time and, in many cases, in the reduction of the test suite size.},
-}
-
-@conference{Bombarda2023b,
-	author="Bombarda, Andrea
-		and Bonfanti, Silvia
-		and Gargantini, Angelo",
-	editor="Gl{\"a}sser, Uwe
-		and Creissac Campos, Jose
-		and M{\'e}ry, Dominique
-		and Palanque, Philippe",
-	title="Formal {MVC}: A Pattern for the Integration of ASM Specifications in UI Development",
-	booktitle="Rigorous State-Based Methods",
-	  bibtex_show = {true}, year="2023",
-	publisher="Springer Nature Switzerland",
-	address="Cham",
-	pages="340--357",
-	abstract="Using architectural patterns is of paramount importance for guaranteeing the correct functionality, maintainability and modularity, especially for complex software systems. The model-view-controller (MVC) pattern is typically used in user interfaces (UIs), since it allows the separation between the internal representation of the information and the way it is shown to users. The main problem of using this approach in a formal setting, where formal models are used to specify the requirements and prove safety properties, is that those models are not directly used within the MVC pattern and, thus, all the activities performed at model-level are somehow lost when implementing the UI. For this reason, in this paper, we present the formal MVC pattern (fMVC), an extension of the classical MVC where the model is a formal specification, written using Abstract State Machines. This pattern is supported by the AsmetaFMVCLib, which allows the user to link the formal model with the view and the controller by using simple Java annotations. We present the application of fMVC on a simple example of a calculator for explanatory purposes, then we apply it to the AMAN case study, which has inspired the definition of fMVC. We discuss the advantages of fMVC and its shortcomings, trying to identify the scenarios where it should be applied and possible alternatives.",
-	isbn="978-3-031-33163-3",
-	doi="10.1007/978-3-031-33163-3_25",
-	url={https://doi.org/10.1007/978-3-031-33163-3_25},
-	html={https://doi.org/10.1007/978-3-031-33163-3_25},
-}
-
-@conference{Bombarda2023d,
-  	doi = {10.1145/3579028.3609017},
-  	url = {https://doi.org/10.1145/3579028.3609017},
-	html = {https://doi.org/10.1145/3579028.3609017},
-  	  bibtex_show = {true}, year = {2023},
-  	month = aug,
-  	publisher = {{ACM}},
-  	author = {Andrea Bombarda and Silvia Bonfanti and Angelo Gargantini},
-  	title = {On the Reuse of Existing Configurations for Testing Evolving Feature Models},
-  	booktitle = {Proceedings of the 27th {ACM} International Systems and Software Product Line Conference - Volume B},
-	abstract = {Software Product Lines (SPLs) are used for representing a variety of highly configurable systems or families of systems. They are commonly represented by feature models (FMs). Starting from FMs, configurations, used as test cases, can be generated to identify the products of interest for further activities. As the other types of software, SPLs and their FMs may evolve due to changing requirements or bug-fixing. However, no guidance is usually given on what to do with derived configurations when an FM evolves. The common approach is based on generating all configurations from scratch, which is not optimal since a greater effort is required for concretizing the new tests, and some of the old ones may be still applicable. In this paper, we present the use of a technique for generating combinatorial tests for evolving feature models: this technique incrementally builds the new combinatorial configuration set starting from the one generated from the previous model. Furthermore, we present a novel definition of dissimilarity among configuration sets that can be used to evaluate how much an evolved test suite differs from the previous one and thus allows evaluating the effort required for adapting old test cases to the new ones. Our experiments confirm that using the proposed technique, in general, leads to lower dissimilarity and test suite size w.r.t. the generation of tests from scratch.}
-}
-
 @Article{Bombarda_2025,
   author      = {Bombarda, Andrea and Bonfanti, Silvia and Gargantini, Angelo and Riccobene, Elvinia},
   journal     = {IEEE Access},
@@ -193,21 +134,6 @@
     bibtex_show = {true}, year      = {2025},
   abstract  = {Mission-critical systems, such as autonomous vehicles, operate in dynamic environments where unexpected events should be managed while guaranteeing safe behavior. Ensuring the safety of these complex systems is a major open challenge and requires robust mechanisms to enforce correct behavior during runtime. This paper illustrates a run-time safety enforcement framework for the output sanitization of an autonomous driving agent on a highway. The enforcement mechanism is based on a (formally validated and verified) Asmeta model representing the enforcement rules and used at run-time to eventually steer the driving agent to behave safely and avoid collisions. We demonstrate both efficacy and efficiency of the proposed enforcement approach by conducting an experimental evaluation. We connected our safety enforcer with the highway simulation environment and co-executed it with the pre-trained (unsafe) AI agents as provided by the ABZ 2025 case study. We consider the single-lane case with the safety requirement and one scenario of the multi-lane case about preferring the right-most lane},
   funding   = {SMIMI,SAFEST},
-}
-
-@Article{RATE23,
-  author      = {Bombarda, Andrea and Bonfanti, Silvia and Gargantini, Angelo and Lei, Yu and Duan, Feng},
-  journal     = {SOFTWARE TESTING VERIFICATION & RELIABILITY},
-  title       = {RATE: A model-based testing approach that combines model refinement and test execution},
-  year        = {2023},
-  number      = {2 (art. e1835)},
-  pages       = {1--34},
-  volume      = {33},
-  abstract    = {In this paper, we present an approach to conformance testing based on abstract state machines (ASMs) that combines model refinement and test execution (RATE) and its application to three case studies. The RATE approach consists in generating test sequences from ASMs and checking the conformance between code and models in multiple iterations. The process follows these steps: (1) model the system as an abstract state machine; (2) validate and verify the model; (3) generate test sequences automatically from the ASM model; (4) execute the tests over the implementation and compute the code coverage; (5) if the coverage is below the desired threshold, then refine the abstract state machine model to add the uncovered functionalities and return to step 2. We have applied the proposed approach in three case studies: a traffic light control system (TLCS), the IEEE 11073-20601 personal health device (PHD) protocol, and the mechanical ventilator Milano (MVM). By applying RATE, at each refinement level, we have increased code coverage and identified some faults or conformance errors for all the case studies. The fault detection capability of RATE has also been confirmed by mutation analysis, in which we have highlighted that, many mutants can be killed even by the most abstract models.},
-  bibtex_show = {true},
-  doi         = {10.1002/stvr.1835},
-  html        = {https://doi.org/10.1002/stvr.1835},
-  url         = {https://doi.org/10.1002/stvr.1835},
 }
 
 
@@ -504,6 +430,73 @@ In this work we share our experience in certifying software for healthcare devic
   publisher = {Wiley},
   url      = {https://doi.org/10.1002/stvr.1835},
   html      = {https://doi.org/10.1002/stvr.1835},
+  bibtex_show = {true}
+}
+
+@inproceedings{Bombarda2023,
+  author = {Andrea Bombarda and Angelo Gargantini and Andrea Calvagna},
+  title = {Multi-thread Combinatorial Test Generation with SMT solvers},
+  year = {2023},
+  isbn = {9781450395175},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  doi = {10.1145/3555776.3577703},
+  abstract = {Combinatorial interaction testing (CIT) is a testing technique that has proven to be effective in finding faults due to the interaction among inputs and in reducing the number of test cases, without losing effectiveness. Several tools have been proposed in the literature; however, generating tests remains a challenging task. In this paper, we present a technique for generating combinatorial test suites that uses a multi-thread architecture and exploits Satisfiability Modulo Theory (SMT) solvers to represent model parameters, constraints, and tuples, and it builds from SMT solver contexts the desired test suite. This technique is implemented by the tool KALI. The main advantage of using SMT solvers is that combinatorial models can contain all kinds of parameters and constraints. To evaluate our approach, we tested the impact of several optimizations and compared the performance of KALI with those of some existing tools for test generation. Our experiments confirm that the use of multi-threading is a promising technique but still requires some optimization for being more effective than the already available ones.},
+  booktitle = {Proceedings of the 38th ACM/SIGAPP Symposium on Applied Computing},
+  numpages = {8},
+  location = {Tallin, Estonia},
+  series = {SAC '23},
+  url      = {https://doi.org/10.1145/3555776.35777035},
+  html      = {https://doi.org/10.1145/3555776.3577703},
+  bibtex_show = {true}
+}
+
+@inproceedings{Bombarda2023d,
+  doi = {10.1145/3579028.3609017},
+  year = {2023},
+  month = aug,
+  publisher = {{ACM}},
+  author = {Andrea Bombarda and Silvia Bonfanti and Angelo Gargantini},
+  title = {On the Reuse of Existing Configurations for Testing Evolving Feature Models},
+  booktitle = {Proceedings of the 27th {ACM} International Systems and Software Product Line Conference - Volume B},
+  url      = {https://doi.org/10.1145/3579028.3609017},
+  html      = {https://doi.org/10.1145/3579028.3609017},
+  bibtex_show = {true}
+}
+
+@InProceedings{Bombarda2023a,
+  author    = {Andrea Bombarda and Angelo Gargantini},
+  title     = {Incremental generation of combinatorial test suites starting from existing seed tests},
+  booktitle = {2023 {IEEE} International Conference on Software Testing, Verification and Validation Workshops ({ICSTW})},
+  year      = {2023},
+  month     = {apr},
+  publisher = {{IEEE}},
+  doi = {10.1109/ICSTW58534.2023.00044},
+  abstract  = {Many researchers have been focusing on building combinatorial test generators having the best possible performances, in terms of smaller test suites and shorter generation times. The majority of tools generates test suites from scratch. This means that when the test suite must be regenerated, the old tests are discarded and a new test suite is built. However, there are many cases in which old test cases, possibly written by hand, need to be (or could be) included in the final test suite, and the test suite completed with new tests in order to reach the desired level of combinatorial coverage. These existing tests that are reused are generally called \emph{seed tests}. Seed tests could be important for testing domain-specific critical parts of the system, or they could represent old test suites that must be enriched to reach the desired (possibly higher) strength of coverage. In this paper, we propose a new architecture for incremental test generation that starts from existing test seeds. This new architecture is supported by the pMEDICI+ tool which extends our previous effort done for pMEDICI. We evaluate the proposed approach on the benchmarks given in the context of the second edition of the CT-Competition and w.r.t. two application scenarios. For each scenario, we automatically generate seed tests and then we apply pMEDICI+ to obtain the desired test suite. The experiments highlight that using incremental test generation can contribute significantly in the reduction of test generation time and, in many cases, in the reduction of the test suite size.},
+  url      = {https://doi.org/10.1109/ICSTW58534.2023.00044},
+  html      = {https://doi.org/10.1109/ICSTW58534.2023.00044},
+  bibtex_show = {true}
+}
+
+@InProceedings{Bombarda2023b,
+  author="Bombarda, Andrea
+    	and Bonfanti, Silvia
+	and Gargantini, Angelo",
+  editor="Gl{\"a}sser, Uwe
+	and Creissac Campos, Jose
+	and M{\'e}ry, Dominique
+	and Palanque, Philippe",
+  title="Formal {MVC}: A Pattern for the Integration of ASM Specifications in UI Development",
+  booktitle="Rigorous State-Based Methods",
+  year="2023",
+  publisher="Springer Nature Switzerland",
+  address="Cham",
+  pages="340--357",
+  abstract="Using architectural patterns is of paramount importance for guaranteeing the correct functionality, maintainability and modularity, especially for complex software systems. The model-view-controller (MVC) pattern is typically used in user interfaces (UIs), since it allows the separation between the internal representation of the information and the way it is shown to users. The main problem of using this approach in a formal setting, where formal models are used to specify the requirements and prove safety properties, is that those models are not directly used within the MVC pattern and, thus, all the activities performed at model-level are somehow lost when implementing the UI. For this reason, in this paper, we present the formal MVC pattern (fMVC), an extension of the classical MVC where the model is a formal specification, written using Abstract State Machines. This pattern is supported by the AsmetaFMVCLib, which allows the user to link the formal model with the view and the controller by using simple Java annotations. We present the application of fMVC on a simple example of a calculator for explanatory purposes, then we apply it to the AMAN case study, which has inspired the definition of fMVC. We discuss the advantages of fMVC and its shortcomings, trying to identify the scenarios where it should be applied and possible alternatives.",
+  isbn="978-3-031-33163-3",
+  doi="10.1007/978-3-031-33163-3_25",
+  url      = {https://doi.org/10.1007/978-3-031-33163-3_25},
+  html      = {https://doi.org/10.1007/978-3-031-33163-3_25},
   bibtex_show = {true}
 }
 
