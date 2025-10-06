@@ -924,14 +924,19 @@ We also present our experience in applying and validating the proposed technique
 }
 
 @InProceedings{Bombarda2025a,
-  author    = {Andrea Bombarda and Silvia Bonfanti and Angelo Gargantini and Nico Pellegrinelli},
-  booktitle = {37th International Conference on Testing Software and Systems - ICTSS},
-  title     = {Introducing {CreaTest}: a framework for test case generation in itemis {CREATE}},
+  author    = {Bombarda, Andrea and Bonfanti, Silvia and Gargantini, Angelo and Pellegrinelli, Nico},
+  editor    = {Bonfanti, Silvia and Papadopoulos, George Angelos},
+  title     = {Introducing {CreaTest}: A Framework for Test Case Generation in itemis {CREATE}},
+  booktitle = {Testing Software and Systems},
   year      = {2025},
+  publisher = {Springer Nature Switzerland},
+  address   = {Cham},
+  pages     = {89--106},
+  abstract  = {In model-driven engineering, models are used to specify, validate, and verify the system design and generate code and tests. In all these activities, assuring the correctness of the model is paramount, as to derive correct code and tests, a correct model is required. In this paper, we introduce CreaTest, a framework designed to generate abstract tests for itemis CREATE Statecharts by leveraging existing code-based test generators. Our approach consists of translating Statecharts into executable Java code, and then applying a white-box test generation tool, like Evosuite, to produce JUnit test cases. Test cases are subsequently abstracted back into a format supported by the original modeling tool for model validation. We evaluate CreaTest on a large set of Statecharts retrieved from GitHub. Our results show that CreaTest generates high-coverage abstract tests for Statecharts and that optimizing the generated code significantly enhances the effectiveness of test generation.},
+  isbn      = {978-3-032-05188-2},
   pdf       = {ICTSS_Evosuite_Itemis_Create.pdf},
-  publisher = {Springer},
-  series    = {Lecture Notes in Computer Science},
- }
+  funding   = {SMIMI,SAFEST,ANTHEM},
+}
 
 @InBook{Pievani_2025,
   author      = {Pievani, Fabio and Taheri Monfared, Asma and Bombarda, Andrea and Gargantini, Angelo},
