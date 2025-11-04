@@ -865,23 +865,45 @@ We also present our experience in applying and validating the proposed technique
   bibtex_show = {true}
 }
 
+@InProceedings{Bombarda2025a,
+  author    = {Bombarda, Andrea and Bonfanti, Silvia and Gargantini, Angelo and Pellegrinelli, Nico},
+  editor    = {Bonfanti, Silvia and Papadopoulos, George Angelos},
+  title     = {Introducing {CreaTest}: A Framework for Test Case Generation in itemis {CREATE}},
+  booktitle = {Testing Software and Systems},
+  year      = {2025},
+  publisher = {Springer Nature Switzerland},
+  address   = {Cham},
+  pages     = {89--106},
+  abstract  = {In model-driven engineering, models are used to specify, validate, and verify the system design and generate code and tests. In all these activities, assuring the correctness of the model is paramount, as to derive correct code and tests, a correct model is required. In this paper, we introduce CreaTest, a framework designed to generate abstract tests for itemis CREATE Statecharts by leveraging existing code-based test generators. Our approach consists of translating Statecharts into executable Java code, and then applying a white-box test generation tool, like Evosuite, to produce JUnit test cases. Test cases are subsequently abstracted back into a format supported by the original modeling tool for model validation. We evaluate CreaTest on a large set of Statecharts retrieved from GitHub. Our results show that CreaTest generates high-coverage abstract tests for Statecharts and that optimizing the generated code significantly enhances the effectiveness of test generation.},
+  isbn      = {978-3-032-05188-2},
+  pdf       = {ICTSS_Evosuite_Itemis_Create.pdf},
+  funding   = {SMIMI,SAFEST,ANTHEM},
+  bibtex_show  = {true},
+  doi          = {10.1007/978-3-032-05188-2_7},
+  url          = {https://doi.org/10.1007/978-3-032-05188-2_7}
+}
 
-
-
+@inproceedings{Bombarda2025h,
+	title        = {Safety Enforcement for Autonomous Driving on a Simulated Highway Using Asmeta Models@run.time},
+	author       = {Bombarda, Andrea and Bonfanti, Silvia and Gargantini, Angelo and Pellegrinelli, Nico and Scandurra, Patrizia},
+	year         = 2025,
+	booktitle    = {Rigorous State-Based Methods},
+	publisher    = {Springer Nature Switzerland},
+	address      = {Cham},
+	pages        = {212--230},
+	isbn         = {978-3-031-94533-5},
+	editor       = {Leuschel, Michael and Ishikawa, Fuyuki},
+	abstract     = {Mission-critical systems, such as autonomous vehicles, operate in dynamic environments where unexpected events should be managed while guaranteeing safe behavior. Ensuring the safety of these complex systems is a major open challenge and requires robust mechanisms to enforce correct behavior during runtime. This paper illustrates a runtime safety enforcement framework for the output sanitization of an autonomous driving agent on a highway. The enforcement mechanism is based on a (formally validated and verified) Asmeta model representing the enforcement rules and used at run-time to eventually steer the driving agent to behave safely and avoid collisions. We demonstrate both efficacy and efficiency of the proposed enforcement approach by conducting an experimental evaluation. We connected our safety enforcer with the highway simulation environment and co-executed it with the pre-trained (unsafe) AI agents as provided by the ABZ 2025 case study. We consider the single-lane case with the safety requirement and one scenario of the multi-lane case about preferring the right-most lane.},
+  pdf          = {safety_enforcement_for_autonomous_vehicles_ABZ_25.pdf},
+  funding      = {SMIMI,SAFEST,ANTHEM},
+  bibtex_show  = {true},
+  doi          = {10.1007/978-3-031-94533-5_13},
+  url          = {https://doi.org/10.1007/978-3-031-94533-5_13}
+}
 
 
 
 @Comment{Andrea: Sistemato fino a qua. Gli altri articoli ancora non hanno DOI}
-@InProceedings{abz25,
-  author    = {Andrea Bombarda, Silvia Bonfanti, Angelo Gargantini, Nico Pellegrinelli and Patrizia Scandurra},
-  booktitle = {ABZ 2025 – 11th International Conference on Rigorous State Based Methods},
-  title     = {Safety enforcement for autonomous driving on a simulated highway using Asmeta models@run.time},
-  bibtex_show = {true}, 
-  year      = {2025},
-  abstract  = {Mission-critical systems, such as autonomous vehicles, operate in dynamic environments where unexpected events should be managed while guaranteeing safe behavior. Ensuring the safety of these complex systems is a major open challenge and requires robust mechanisms to enforce correct behavior during runtime. This paper illustrates a run-time safety enforcement framework for the output sanitization of an autonomous driving agent on a highway. The enforcement mechanism is based on a (formally validated and verified) Asmeta model representing the enforcement rules and used at run-time to eventually steer the driving agent to behave safely and avoid collisions. We demonstrate both efficacy and efficiency of the proposed enforcement approach by conducting an experimental evaluation. We connected our safety enforcer with the highway simulation environment and co-executed it with the pre-trained (unsafe) AI agents as provided by the ABZ 2025 case study. We consider the single-lane case with the safety requirement and one scenario of the multi-lane case about preferring the right-most lane},
-  funding   = {SMIMI,SAFEST},
-}
-
 @inproceedings{icsa25,
   author       = {Alberto Ceselli and
                   Giuseppe De Martino and
@@ -921,21 +943,6 @@ We also present our experience in applying and validating the proposed technique
   issn      = {1611-3349},
   timestamp = {Wed, 08 Jan 2025 21:12:50 +0100},
   url       = {https://doi.org/10.1007/978-981-96-0808-9\_5},
-}
-
-@InProceedings{Bombarda2025a,
-  author    = {Bombarda, Andrea and Bonfanti, Silvia and Gargantini, Angelo and Pellegrinelli, Nico},
-  editor    = {Bonfanti, Silvia and Papadopoulos, George Angelos},
-  title     = {Introducing {CreaTest}: A Framework for Test Case Generation in itemis {CREATE}},
-  booktitle = {Testing Software and Systems},
-  year      = {2025},
-  publisher = {Springer Nature Switzerland},
-  address   = {Cham},
-  pages     = {89--106},
-  abstract  = {In model-driven engineering, models are used to specify, validate, and verify the system design and generate code and tests. In all these activities, assuring the correctness of the model is paramount, as to derive correct code and tests, a correct model is required. In this paper, we introduce CreaTest, a framework designed to generate abstract tests for itemis CREATE Statecharts by leveraging existing code-based test generators. Our approach consists of translating Statecharts into executable Java code, and then applying a white-box test generation tool, like Evosuite, to produce JUnit test cases. Test cases are subsequently abstracted back into a format supported by the original modeling tool for model validation. We evaluate CreaTest on a large set of Statecharts retrieved from GitHub. Our results show that CreaTest generates high-coverage abstract tests for Statecharts and that optimizing the generated code significantly enhances the effectiveness of test generation.},
-  isbn      = {978-3-032-05188-2},
-  pdf       = {ICTSS_Evosuite_Itemis_Create.pdf},
-  funding   = {SMIMI,SAFEST,ANTHEM},
 }
 
 @InBook{Pievani_2025,
