@@ -41,9 +41,12 @@ research and digitisation of healthcare”, and mission 4.2 “From research to 
 
 **University of Bergamo**: Angelo Gargantini (PI), Patrizia Scandurra, Silvia Bonfanti
 
-**University of Milano**
+**Politecnico di Milano**: Marcello Bersani (co-PI), Matteo Camilli, Livia Lestingi
 
-**Politecnico di Milano**
+**University of Milano**: Elvinia Riccobene (unit leader), Stelvio Cimato, Chiara Braghin
+
+### website
+
+https://safest-prin.github.io/
 
 
-**Diapath**
