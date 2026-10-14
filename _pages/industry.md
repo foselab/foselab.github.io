@@ -1,36 +1,45 @@
 ---
 layout: page
-title: Industry Collaborations
-description: Connecting formal methods and software engineering with industry challenges.
+title: Industry & Academic Collaborations
+nav_title: Collaborations
+description: Research collaborations on requirements, testing, safety, data validation, and software optimisation.
 permalink: /industry/
 nav: true
 nav_order: 4
-collaborations:
-  - title: Testing an embedded controller
-    partner: Example partner
-    logo: null
-    description: >-
-      In this example, the group and an industry partner would define the controller's
-      requirements, model its expected behaviour, and generate tests from the model.
-      Simulated scenarios would help identify unexpected behaviour and guide improvements
-      before deployment.
 ---
 
-Industry collaborations bring our research in formal methods and software engineering to practical development challenges.
+We work with industry, healthcare, and academic partners on requirements, testing, safety, data validation, and software optimisation.
 
-<div class="industry-collaborations">
-  {% for collaboration in page.collaborations %}
-    <article class="industry-collaboration{% if collaboration.logo %} has-logo{% endif %}">
-      {% if collaboration.logo %}
-        <div class="industry-collaboration-logo">
-          <img src="{{ collaboration.logo | relative_url | escape }}" alt="{{ collaboration.partner | escape }} logo" loading="lazy" decoding="async">
-        </div>
-      {% endif %}
-      <div class="industry-collaboration-content">
-        <h2>{{ collaboration.title | escape }}</h2>
-        <p class="industry-collaboration-partner"><strong>Partner:</strong> {{ collaboration.partner | escape }}</p>
-        <p>{{ collaboration.description | escape }}</p>
-      </div>
-    </article>
-  {% endfor %}
-</div>
+<section class="industry-help" aria-labelledby="industry-help-title">
+  <h2 id="industry-help-title">Our collaborations have involved</h2>
+  <div class="industry-help-grid">
+    <div>
+      <h3>Requirements verification</h3>
+      <p>Identifying gaps and contradictions in requirements tables, and verifying that models capture the intended behaviour.</p>
+    </div>
+    <div>
+      <h3>Test generation and evaluation</h3>
+      <p>Generating tests from software and control models, measuring coverage, and assessing their ability to reveal faults.</p>
+    </div>
+    <div>
+      <h3>Fault and safety analysis</h3>
+      <p>Simulating component faults, examining their effects, and supporting the development and validation of safety-critical software.</p>
+    </div>
+    <div>
+      <h3>Synthetic data validation</h3>
+      <p>Defining which properties synthetic datasets must preserve and assessing their suitability when real-world data is scarce.</p>
+    </div>
+    <div>
+      <h3>AI robustness assessment</h3>
+      <p>Testing how neural networks respond to realistic input variations and evaluating ways to improve the reliability of their predictions.</p>
+    </div>
+    <div>
+      <h3>Software configuration tuning</h3>
+      <p>Using domain knowledge and constraints to select resource configurations that balance application performance and infrastructure costs.</p>
+    </div>
+  </div>
+</section>
+
+## Let's work together
+
+Bring us a requirements, testing, safety, data, or configuration problem. We can investigate it together through a case study, prototype, student thesis, doctoral project, or joint research proposal. For collaborations, contact <strong>Angelo Gargantini</strong> at <a href="mailto:angelo.gargantini@unibg.it">angelo.gargantini@unibg.it</a>.

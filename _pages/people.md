@@ -43,8 +43,19 @@ nav_order: 2
   <h2>Collaborators (past and present)</h2>
   <ul>
     {% assign collaborators = site.data.people | where: 'group', 'collaborators' %}
-    {% for person in collaborators %}<li id="{{ person.name | slugify }}"><a href="{{ person.url }}">{{ person.name }}</a><span class="community-role">{{ person.role }}</span></li>{% endfor %}
+    {% for person in collaborators %}<li id="{{ person.name | slugify }}">{% if person.url %}<a href="{{ person.url }}">{{ person.name }}</a>{% else %}<span>{{ person.name }}</span>{% endif %}<span class="community-role">{{ person.role }}</span></li>{% endfor %}
   </ul>
+  <section aria-labelledby="people-master">
+    <h2 id="people-master">Master students since 2024</h2>
+    {% assign master_students = site.data.people | where: 'group', 'master' %}
+    {% assign master_years = master_students | group_by: 'year' | sort: 'name' | reverse %}
+    {% for year in master_years %}
+      {% if year.name != blank %}<h3 class="master-students-year">{{ year.name }}</h3>{% endif %}
+      <ul class="master-students-list">
+        {% for person in year.items %}<li id="{{ person.name | slugify }}"><span>{{ person.name }}</span></li>{% endfor %}
+      </ul>
+    {% endfor %}
+  </section>
 </div>
 
 

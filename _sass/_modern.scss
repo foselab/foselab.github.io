@@ -117,7 +117,7 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid 
 .person-portrait, .person-placeholder { display: flex; align-items: center; justify-content: center; width: 100%; max-width: 15rem; aspect-ratio: 4 / 5; padding: 0.75rem; border: 1px solid var(--global-divider-color); border-radius: 0.75rem; background: var(--lab-soft); }
 .person-placeholder { color: var(--global-theme-color); font-family: Georgia, "Times New Roman", serif; font-size: 2.5rem; }
 .people-empty { color: var(--global-text-color-light); font-size: 0.9rem; font-style: italic; }
-.community-role { display: block; font-size: 0.9rem; color: var(--global-text-color-light); }
+.community-role { font-size: 0.9rem; color: var(--global-text-color-light); }
 .person-card { display: flex; flex-direction: column; align-items: center; min-width: 0; border: 0; background: transparent; text-align: center; }
 .person-portrait img { display: block; width: 100%; height: 100%; min-height: 0; object-fit: contain; border-radius: 0.35rem; }
 .person-info { padding: 1.1rem 0 0.5rem; }
@@ -125,10 +125,13 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid 
 .person-info p { font-size: 0.9rem; color: var(--global-text-color-light); margin: 0; }
 a.person-card:hover { text-decoration: none; box-shadow: none; }
 a.person-card:hover h3 { color: var(--global-theme-color); text-decoration: underline; text-underline-offset: 0.2em; }
-.people-community { margin-top: 3.5rem; border-top: 1px solid var(--global-divider-color); padding-top: 1rem; }
-.people-community h2 { font-size: 1.5rem; margin-top: 2rem; }
-.people-community ul { list-style: none; padding: 0; }
-.people-community li { padding: 0.65rem 0; border-bottom: 1px solid var(--global-divider-color); }
+.people-community { margin-top: 2rem; border-top: 1px solid var(--global-divider-color); padding-top: 0.5rem; }
+.people-community h2 { font-size: 1.5rem; margin: 1.5rem 0 0.65rem; }
+.people-community ul { list-style: none; padding: 0; margin-bottom: 0; }
+.people-community li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.15rem 0.6rem; padding: 0.25rem 0; font-size: 0.95rem; line-height: 1.4; }
+.people-community .master-students-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: 1.5rem; }
+.people-community .master-students-list li { break-inside: avoid; }
+.master-students-year { font-size: 1rem; font-weight: 700; margin: 1rem 0 0.35rem; padding-bottom: 0.35rem; border-bottom: 1px solid var(--global-divider-color); }
 
 .research-areas { margin-top: 2.5rem; }
 .research-area { display: block; padding: 2rem 0; border-top: 1px solid var(--global-divider-color); }
@@ -136,15 +139,12 @@ a.person-card:hover h3 { color: var(--global-theme-color); text-decoration: unde
 .research-area h2 { font-size: 1.6rem; margin-bottom: 1rem; }
 .research-area p { max-width: 48rem; color: var(--global-text-color-light); margin: 0; }
 
-.industry-collaborations { margin-top: 2.5rem; }
-.industry-collaboration { padding: 2rem 0; border-top: 1px solid var(--global-divider-color); }
-.industry-collaboration.has-logo { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 2.5rem; align-items: start; }
-.industry-collaboration-logo { display: flex; align-items: center; justify-content: center; min-height: 130px; padding: 0.75rem; background: #fff; }
-.industry-collaboration-logo img { display: block; max-width: 100%; max-height: 130px; object-fit: contain; }
-.industry-collaboration-content h2 { margin: 0 0 0.75rem; font-size: 1.6rem; }
-.industry-collaboration-content p { max-width: 48rem; margin: 0 0 0.85rem; color: var(--global-text-color-light); }
-.industry-collaboration-content p:last-child { margin-bottom: 0; }
-.industry-collaboration-content .industry-collaboration-partner { color: var(--global-text-color); }
+.industry-help { margin-top: 2.5rem; }
+.industry-help > h2 { margin-bottom: 1.5rem; }
+.industry-help-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem 2.5rem; }
+.industry-help-grid > div { padding-top: 1rem; border-top: 1px solid var(--global-divider-color); }
+.industry-help-grid h3 { margin: 0 0 0.65rem; }
+.industry-help-grid p { margin: 0; color: var(--global-text-color-light); }
 
 .collection-grid { display: block; }
 .collection-card { background: transparent; border: 0; border-top: 1px solid var(--global-divider-color); border-radius: 0; padding: 2rem 0; }
@@ -236,8 +236,7 @@ footer.sticky-bottom .container { color: var(--global-text-color-light); text-al
   .explore-card { grid-template-columns: 1fr; gap: 0.5rem; }
   .collection-card-link { grid-template-columns: 1fr; gap: 1rem; }
   .collection-card-image { width: 160px; }
-  .industry-collaboration.has-logo { grid-template-columns: 1fr; gap: 1.25rem; }
-  .industry-collaboration-logo { width: 180px; }
+  .industry-help-grid { grid-template-columns: 1fr; }
 }
 
 .research-intersection { display: block; width: 100%; height: auto; overflow: visible; }
