@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="24 -36 272 272" role="img" aria-labelledby="title desc">
+  <title id="title">FOSELAB</title>
+  <desc id="desc">FOSELAB logo</desc>
+  <defs>
+    <pattern id="intersection-hatching" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <line x1="0" y1="0" x2="0" y2="10" stroke="#087eae" stroke-width="2.5" />
+    </pattern>
+    <clipPath id="formal-methods-circle">
+      <circle cx="120" cy="100" r="76" />
+    </clipPath>
+    <clipPath id="software-engineering-circle">
+      <circle cx="200" cy="100" r="76" />
+    </clipPath>
+  </defs>
+  <rect x="24" y="-36" width="272" height="272" rx="48" fill="#e0f2fa" />
+  <circle cx="120" cy="100" r="76" fill="none" stroke="#087eae" stroke-width="4" />
+  <circle cx="200" cy="100" r="76" fill="none" stroke="#087eae" stroke-width="4" />
+  <g clip-path="url(#formal-methods-circle)">
+    <g clip-path="url(#software-engineering-circle)">
+      <rect x="40" y="20" width="240" height="160" fill="url(#intersection-hatching)" />
+    </g>
+  </g>
+</svg>
