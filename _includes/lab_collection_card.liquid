@@ -1,0 +1,21 @@
+<article class="collection-card">
+  <a class="collection-card-link" href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
+    <div class="collection-card-image">
+      {% if project.img %}
+        {% if project.img contains '://' %}
+          <img src="{{ project.img }}" alt="{{ project.title | escape }}" loading="lazy" decoding="async">
+        {% else %}
+          {% include figure.liquid loading="lazy" path=project.img sizes="(min-width: 768px) 500px, 90vw" alt=project.title %}
+        {% endif %}
+      {% else %}
+        <span class="collection-monogram" aria-hidden="true">{{ project.title | slice: 0, 1 }}</span>
+      {% endif %}
+    </div>
+    <div class="collection-card-body">
+      {% if project.subdescription and project.subdescription != '' %}<p class="eyebrow">{{ project.subdescription }}</p>{% endif %}
+      <h2>{{ project.title }}</h2>
+      <p>{{ project.description }}</p>
+    </div>
+  </a>
+  {% if project.github %}<a class="collection-code" href="{{ project.github }}">Source code</a>{% endif %}
+</article>

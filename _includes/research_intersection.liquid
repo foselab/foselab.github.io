@@ -1,0 +1,20 @@
+<svg class="research-intersection is-animating" viewBox="0 0 320 255" role="img" aria-labelledby="intersection-title intersection-description" xmlns="http://www.w3.org/2000/svg">
+  <title id="intersection-title">Formal Methods and Software Engineering</title>
+  <desc id="intersection-description">Two circles come together. Their shared, hatched area represents FOSELAB's research at the intersection of the two disciplines, as in the lab's logo.</desc>
+  <defs>
+    <pattern id="intersection-hatching" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <line x1="0" y1="0" x2="0" y2="10" class="intersection-hatch-line" />
+    </pattern>
+    <clipPath id="formal-methods-circle"><circle cx="120" cy="100" r="76" /></clipPath>
+    <clipPath id="software-engineering-circle"><circle cx="200" cy="100" r="76" /></clipPath>
+  </defs>
+  <circle class="intersection-circle intersection-formal" cx="120" cy="100" r="76" />
+  <circle class="intersection-circle intersection-software" cx="200" cy="100" r="76" />
+  <g clip-path="url(#formal-methods-circle)">
+    <g clip-path="url(#software-engineering-circle)" class="intersection-shared">
+      <rect x="40" y="20" width="240" height="160" fill="url(#intersection-hatching)" />
+    </g>
+  </g>
+  <text x="85" y="211" text-anchor="middle" class="intersection-label"><tspan x="85"><tspan class="intersection-initial">Fo</tspan>rmal</tspan><tspan x="85" dy="23">Methods</tspan></text>
+  <text x="239" y="211" text-anchor="middle" class="intersection-label"><tspan x="239"><tspan class="intersection-initial">S</tspan>oftware</tspan><tspan x="239" dy="23"><tspan class="intersection-initial">E</tspan>ngineering</tspan></text>
+</svg>

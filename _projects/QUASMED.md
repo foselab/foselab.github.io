@@ -16,9 +16,3 @@ Medical software is critical since can cause injuries or, in some cases, the dea
 
 **University of Texas at Arlington**: Yu Lei, Feng Duan
 
-### Publications
-<div class="publications">
-{% bibliography -f papers -q @*[key=10446_235470]* %}
-
-{% bibliography -f papers -q @*[key=10446_150840]* %}
-</div>

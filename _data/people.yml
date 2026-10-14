@@ -1,0 +1,64 @@
+- name: Angelo Gargantini
+  role: Full Professor
+  image: Angelo.jpg
+  url: https://cs.unibg.it/gargantini/
+  group: faculty
+- name: Patrizia Scandurra
+  role: Associate Professor
+  image: Patrizia.jpeg
+  url: https://cs.unibg.it/scandurra/
+  group: faculty
+- name: Claudio Menghi
+  role: Associate Professor
+  image: claudio.jpeg
+  url: https://claudiomenghi.github.io/
+  group: faculty
+- name: Silvia Bonfanti
+  role: Assistant Professor (RTT)
+  image: Silvia.jpg
+  url: https://cs.unibg.it/bonfanti/
+  group: faculty
+- name: Andrea Bombarda
+  role: Researcher (RTD-A)
+  image: Andrea.jpg
+  url: https://cs.unibg.it/bombarda/
+  group: researcher
+- name: César Cornejo
+  role: Postdoc
+  image: Cesar.jpeg
+  url: https://cesarcorne.github.io/
+  group: postdoc
+- name: Asma Taheri Monfared
+  role: Postdoc
+  group: former
+- name: Nicola Zeni
+  role: Researcher (RTD-A)
+  image: Nicola.jpeg
+  group: former
+- name: Nico Pellegrinelli
+  role: PhD Student
+  image: Nico.jpeg
+  group: phd
+  url: https://cs.unibg.it/nicopellegrinelli/
+- name: Aurora Zanenga
+  role: PhD Student
+  image: Aurora.png
+  group: phd
+- name: Marco Radavelli
+  role: PhD (2019)
+  group: former
+- name: Paolo Vavassori
+  role: PhD (2017)
+  group: former
+- name: Elvinia Riccobene
+  role: University of Milan, Milan, Italy
+  url: https://riccobene.di.unimi.it/
+  group: collaborators
+- name: Paolo Arcaini
+  role: Simula Research Laboratory, Oslo, Norway
+  url: https://group-mmm.org/~arcaini/
+  group: collaborators
+- name: Matteo Camilli
+  role: Politecnico di Milano, Milan, Italy
+  url: https://matteocamilli.github.io/
+  group: collaborators

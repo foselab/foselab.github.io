@@ -2,11 +2,11 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Publications in chronological order related to FOSELAB@unibg projects
+description: Ideas, methods, and results from our research, in chronological order.
 #years: [2026,2025,2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015]
 years: [2026,2025,2024, 2023, 2022, 2021, 2020, 2019]
 nav: true
-nav_order: 2
+nav_order: 5
 ---
 
 <!-- _pages/publications.md -->

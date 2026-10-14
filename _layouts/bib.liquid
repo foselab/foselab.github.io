@@ -255,7 +255,10 @@
       {% endif %}
       <!-- FUNDING AGGIUNTO DA ANGELO-->
       {% if entry.funding %}
-        <div class="btn btn-sm z-depth-0"> <b>Funding:</b> {{ entry.funding}}  </div>        
+        <div class="funding-badge"><b>Funding:</b>
+          {% assign funding_items = entry.funding | split: ',' %}
+          {% for funding_item in funding_items %}{{ funding_item | strip }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+        </div>
       {% endif %}
       <!-- FINE FUNDING AGGIUNTO DA ANGELO-->
     </div>

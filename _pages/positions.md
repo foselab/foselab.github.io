@@ -2,7 +2,7 @@
 layout: about
 title: Open positions
 permalink: /positions
-nav: true
+nav: false
 nav_order: 1
 
 news: false  # includes a list of news items

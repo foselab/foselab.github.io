@@ -1,8 +1,8 @@
 <header>
   <!-- Nav Bar -->
-  <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
+  <nav id="navbar" class="navbar navbar-light navbar-expand-lg {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation" aria-label="Main navigation">
     <div class="container">
-      {% if page.permalink != '/' %}
+      {% if site.title or site.first_name %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title == 'blank' %}
             {% if site.first_name %}
@@ -17,7 +17,7 @@
               {{- site.last_name -}}
             {% endif %}
           {% else %}
-            {{- site.title -}}
+            <img class="navbar-lab-logo" src="{{ '/assets/img/logo_foselab.png' | relative_url }}" alt="{{ site.title }}" width="148" height="31">
           {% endif %}
         </a>
       {% elsif site.enable_navbar_social %}
@@ -120,8 +120,8 @@
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
-              <button id="search-toggle" title="Search" onclick="openSearchModal()">
-                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+              <button id="search-toggle" title="Search" aria-label="Search the site" aria-haspopup="dialog" aria-controls="site-search" onclick="openSearchModal()">
+                <span class="nav-link"><i class="ti ti-search" aria-hidden="true"></i></span>
               </button>
             </li>
           {% endif %}
