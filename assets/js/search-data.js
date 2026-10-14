@@ -76,7 +76,7 @@ window.foselabSearchEntries = [
         {
           title: "People",
           description: "The researchers behind our models, methods, and tools.",
-          text: "Faculty Angelo GargantiniFull Professor Patrizia ScandurraAssociate Professor Claudio MenghiAssociate Professor Silvia BonfantiAssistant Professor (RTT) Researcher Andrea BombardaResearcher (RTD-A) Postdoc César CornejoPostdoc PhD Nico PellegrinelliPhD Student Aurora ZanengaPhD Student Former members Asma Taheri MonfaredPostdocNicola ZeniResearcher (RTD-A)Marco RadavelliPhD (2019)Paolo VavassoriPhD (2017) Collaborators (past and present) Elvinia RiccobeneUniversity of Milan, Milan, ItalyPaolo ArcainiSimula Research Laboratory, Oslo, NorwayMatteo CamilliPolitecnico di Milano, Milan, Italy",
+          text: "Faculty Angelo GargantiniFull Professor Patrizia ScandurraAssociate Professor Claudio MenghiAssociate Professor Silvia BonfantiAssistant Professor (RTT) Researcher Andrea BombardaResearcher (RTD-A) Postdoc César CornejoPostdoc PhD Nico PellegrinelliPhD Student Aurora ZanengaPhD Student Former members Asma Taheri MonfaredPostdocNicola ZeniResearcher (RTD-A)Marco RadavelliPhD (2019)Paolo VavassoriPhD (2017) Collaborators (past and present) Elvinia RiccobeneUniversity of Milan, Milan, ItalyPaolo ArcainiSimula Research Laboratory, Oslo, NorwayLionel C. BriandUniversity of Ottawa, Ottawa, Canada; Research Ireland Lero Centre, University of Limerick, Limerick, IrelandMarsha ChechikUniversity of Toronto, Toronto, CanadaMatteo CamilliPolitecnico di Milano, Milan, Italy Master students since 2024 2026 Claudio BorsaniDaniele GrecoAndrea RotaLuca Carminati 2025 Isaac MaffeisDaniele BerettaStefano GregisLuca CavagnisFederico ImbertiSabrin MaatougSimone RonzoniArash AbediTommaso Garbin 2024 Nico PellegrinelliAlessandro ColomboGionatha PirolaNunzio Marco BiscegliaAurora Zanenga",
           section: "Pages",
           url: "/people/"
         },
@@ -100,9 +100,9 @@ window.foselabSearchEntries = [
     
       
         {
-          title: "Industry Collaborations",
-          description: "Connecting formal methods and software engineering with industry challenges.",
-          text: "Industry collaborations bring our research in formal methods and software engineering to practical development challenges. Testing an embedded controller Partner: Example partner In this example, the group and an industry partner would define the controller\u0026#39;s requirements, model its expected behaviour, and generate tests from the model. Simulated scenarios would help identify unexpected behaviour and guide improvements before deployment.",
+          title: "Industry \u0026 Academic Collaborations",
+          description: "Research collaborations on requirements, testing, safety, data validation, and software optimisation.",
+          text: "We work with industry, healthcare, and academic partners on requirements, testing, safety, data validation, and software optimisation. Our collaborations have involved Requirements verification Identifying gaps and contradictions in requirements tables, and verifying that models capture the intended behaviour. Test generation and evaluation Generating tests from software and control models, measuring coverage, and assessing their ability to reveal faults. Fault and safety analysis Simulating component faults, examining their effects, and supporting the development and validation of safety-critical software. Synthetic data validation Defining which properties synthetic datasets must preserve and assessing their suitability when real-world data is scarce. AI robustness assessment Testing how neural networks respond to realistic input variations and evaluating ways to improve the reliability of their predictions. Software configuration tuning Using domain knowledge and constraints to select resource configurations that balance application performance and infrastructure costs. Let’s work together Bring us a requirements, testing, safety, data, or configuration problem. We can investigate it together through a case study, prototype, student thesis, doctoral project, or joint research proposal. For collaborations, contact Angelo Gargantini at angelo.gargantini@unibg.it.",
           section: "Pages",
           url: "/industry/"
         },
@@ -406,11 +406,211 @@ window.foselabSearchEntries = [
     
     
     {
+      title: "Lionel C. Briand",
+      description: "University of Ottawa, Ottawa, Canada; Research Ireland Lero Centre, University of Limerick, Limerick, Ireland",
+      text: "collaborators",
+      section: "People",
+      url: "/people/#lionel-c-briand"
+    },
+  
+    
+    
+    {
+      title: "Marsha Chechik",
+      description: "University of Toronto, Toronto, Canada",
+      text: "collaborators",
+      section: "People",
+      url: "/people/#marsha-chechik"
+    },
+  
+    
+    
+    {
       title: "Matteo Camilli",
       description: "Politecnico di Milano, Milan, Italy",
       text: "collaborators",
       section: "People",
       url: "/people/#matteo-camilli"
+    },
+  
+    
+    
+    {
+      title: "Nico Pellegrinelli",
+      description: null,
+      text: "master",
+      section: "People",
+      url: "/people/#nico-pellegrinelli"
+    },
+  
+    
+    
+    {
+      title: "Alessandro Colombo",
+      description: null,
+      text: "master",
+      section: "People",
+      url: "/people/#alessandro-colombo"
+    },
+  
+    
+    
+    {
+      title: "Gionatha Pirola",
+      description: null,
+      text: "master",
+      section: "People",
+      url: "/people/#gionatha-pirola"
+    },
+  
+    
+    
+    {
+      title: "Nunzio Marco Bisceglia",
+      description: null,
+      text: "master",
+      section: "People",
+      url: "/people/#nunzio-marco-bisceglia"
+    },
+  
+    
+    
+    {
+      title: "Aurora Zanenga",
+      description: null,
+      text: "master",
+      section: "People",
+      url: "/people/#aurora-zanenga"
+    },
+  
+    
+    
+    {
+      title: "Isaac Maffeis",
+      description: null,
+      text: "master",
+      section: "People",
+      url: "/people/#isaac-maffeis"
+    },
+  
+    
+    
+    {
+      title: "Daniele Beretta",
+      description: null,
+      text: "master",
+      section: "People",
+      url: "/people/#daniele-beretta"
+    },
+  
+    
+    
+    {
+      title: "Stefano Gregis",
+      description: null,
+      text: "master",
+      section: "People",
+      url: "/people/#stefano-gregis"
+    },
+  
+    
+    
+    {
+      title: "Luca Cavagnis",
+      description: null,
+      text: "master",
+      section: "People",
+      url: "/people/#luca-cavagnis"
+    },
+  
+    
+    
+    {
+      title: "Federico Imberti",
+      description: null,
+      text: "master",
+      section: "People",
+      url: "/people/#federico-imberti"
+    },
+  
+    
+    
+    {
+      title: "Sabrin Maatoug",
+      description: null,
+      text: "master",
+      section: "People",
+      url: "/people/#sabrin-maatoug"
+    },
+  
+    
+    
+    {
+      title: "Simone Ronzoni",
+      description: null,
+      text: "master",
+      section: "People",
+      url: "/people/#simone-ronzoni"
+    },
+  
+    
+    
+    {
+      title: "Arash Abedi",
+      description: null,
+      text: "master",
+      section: "People",
+      url: "/people/#arash-abedi"
+    },
+  
+    
+    
+    {
+      title: "Tommaso Garbin",
+      description: null,
+      text: "master",
+      section: "People",
+      url: "/people/#tommaso-garbin"
+    },
+  
+    
+    
+    {
+      title: "Claudio Borsani",
+      description: null,
+      text: "master",
+      section: "People",
+      url: "/people/#claudio-borsani"
+    },
+  
+    
+    
+    {
+      title: "Daniele Greco",
+      description: null,
+      text: "master",
+      section: "People",
+      url: "/people/#daniele-greco"
+    },
+  
+    
+    
+    {
+      title: "Andrea Rota",
+      description: null,
+      text: "master",
+      section: "People",
+      url: "/people/#andrea-rota"
+    },
+  
+    
+    
+    {
+      title: "Luca Carminati",
+      description: null,
+      text: "master",
+      section: "People",
+      url: "/people/#luca-carminati"
     },
   
 ];
