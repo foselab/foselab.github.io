@@ -88,7 +88,7 @@ window.foselabSearchEntries = [
         {
           title: "Projects",
           description: "Research collaborations tackling complex software challenges.",
-          text: "PNRR ANTHEM AdvaNced Technologies for Human-centrEd Medicine FISR MVM ADAPT Bringing adaptation to ventilators PRIN 2022 SAFEST Trust assurance of Digital Twins for medical CPSs PNRR PE CHANGES Cultural Heritage Active Innovation for Sustainable Society QUASMED Quality of Medical Software",
+          text: "PNRR ANTHEM AdvaNced Technologies for Human-centrEd Medicine FISR MVM ADAPT Bringing adaptation to ventilators PRIN 2022 SAFEST Trust assurance of Digital Twins for medical CPSs PNRR PE CHANGES Cultural Heritage Active Innovation for Sustainable Society QUASMED Quality of Medical Software SEEDCORN 2026 AAIDT AI Algorithms for Therapeutic Decision-Making: Validation, Explainability, and Legal and Ethical Implications",
           section: "Pages",
           url: "/projects/"
         },
@@ -149,7 +149,7 @@ window.foselabSearchEntries = [
             {
               title: "ANTHEM",
               description: "AdvaNced Technologies for Human-centrEd Medicine",
-              text: "The project is aimed at developing technologies to improve the diagnosis and treatment of chronic diseases, with the goal of having a short-term impact on patients belonging to well-defined reference communities. In particular, the project aims to create digital devices and tools for data collection in support of personalized and proximity medicine solutions; develop remote monitoring and treatment tools; evaluate the importance and impact of environmental factors and lifestyle in the development of chronic pathologies in fragile populations; implement oncological therapy methods for tumors that cannot be treated with conventional approaches. UniBg is the leader of Spoke 1 dedicated to the development of data-driven diagnostic and therapy methods based on artificial intelligence technologies. Partners University of Bergamo: Andrea Bombarda, Domenico Fabio Savo University of Milano-Bicocca University of Messina University of Campania - Luigi Vanvitelli ASST Papa Giovanni XXIII* ASST Bergamo EST (Bolognini Hospital) ASST Monza (San Gerardo Hospital) Fondazione Europea Ricerca Biomedica Onlus Istituto Mario Negri Diapath",
+              text: "The project is aimed at developing technologies to improve the diagnosis and treatment of chronic diseases, with the goal of having a short-term impact on patients belonging to well-defined reference communities. In particular, the project aims to create digital devices and tools for data collection in support of personalized and proximity medicine solutions; develop remote monitoring and treatment tools; evaluate the importance and impact of environmental factors and lifestyle in the development of chronic pathologies in fragile populations; implement oncological therapy methods for tumors that cannot be treated with conventional approaches. UniBg is the leader of Spoke 1 dedicated to the development of data-driven diagnostic and therapy methods based on artificial intelligence technologies. Partners University of Bergamo: Andrea Bombarda, Domenico Fabio Savo University of Milano-Bicocca University of Messina University of Campania: Luigi Vanvitelli** ASST Papa Giovanni XXIII* ASST Bergamo EST (Bolognini Hospital) ASST Monza (San Gerardo Hospital) Fondazione Europea Ricerca Biomedica Onlus Istituto Mario Negri Diapath",
               section: "Projects",
               
                 url: "/projects/ANTHEM/"
@@ -201,6 +201,18 @@ window.foselabSearchEntries = [
               section: "Projects",
               
                 url: "/projects/changes/"
+              
+            },
+          
+        
+          
+            {
+              title: "AAIDT",
+              description: "AI Algorithms for Therapeutic Decision-Making: Validation, Explainability, and Legal and Ethical Implications",
+              text: "The project aims to investigate the use of artificial intelligence (AI) algorithms to support therapeutic decision-making, with the goal of improving the reliability, transparency, and safety of AI-based healthcare solutions while addressing their legal and ethical implications. In particular, the project focuses on developing methodologies for validating the accuracy, robustness, and reliability of AI algorithms in clinical settings; investigating explainable AI techniques to make algorithmic decisions understandable to healthcare professionals and patients; analyzing legal aspects related to medical liability, data protection, and regulatory compliance; and examining ethical challenges concerning patient autonomy, informed consent, fairness, and the doctor-patient relationship. The project adopts an interdisciplinary approach combining computer science, software engineering, law, and ethics. A specific case study focuses on the use of AI algorithms for prioritizing medical treatments and allocating limited healthcare resources during emergencies. Expected outcomes include theoretical frameworks, validation methodologies, practical guidelines, and an AI-based prototype evaluated in terms of robustness and explainability. Partners University of Bergamo – Department of Management, Information and Production Engineering: Angelo Gargantini (PI) University of Bergamo – Department of Law: Massimo Foglia",
+              section: "Projects",
+              
+                url: "/projects/seedcorn/"
               
             },
           
