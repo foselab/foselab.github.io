@@ -23,6 +23,9 @@ layout: default
       {% endif %}
     {% else %}
       <h1 class="post-title">{{ page.title }}</h1>
+      {% if page.description %}
+        <p class="post-description">{{ page.description }}</p>
+      {% endif %}
     {% endif %}
   </header>
 

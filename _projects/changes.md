@@ -5,7 +5,6 @@ description: Cultural Heritage Active Innovation for Sustainable Society
 subdescription: PNRR PE
 importance: 1
 img: assets/img/Changes.png
-category: work
 encoding: utf-8
 ---
 

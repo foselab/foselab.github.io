@@ -5,7 +5,6 @@ description: AdvaNced Technologies for Human-centrEd Medicine
 subdescription: PNRR
 img: assets/img/Anthem.jpg
 importance: 1
-category: work
 encoding: utf-8
 ---
 
@@ -23,7 +22,7 @@ UniBg is the leader of Spoke 1 dedicated to the development of data-driven diagn
 
 **University of Messina**
 
-**University of Campania - Luigi Vanvitelli**
+**University of Campania**: Luigi Vanvitelli**
 
 **ASST Papa Giovanni XXIII\***
 

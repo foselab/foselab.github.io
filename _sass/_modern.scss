@@ -72,6 +72,7 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid 
 .post-title { margin-bottom: 1rem; }
 .post-description { max-width: 44rem; color: var(--global-text-color-light); font-size: 1.1rem; margin: 0; }
 .post > article > p, .post > article > ul { max-width: 52rem; }
+.post > article strong { font-weight: 700; }
 .post > article > h2 { margin-top: 2.75rem; margin-bottom: 1rem; }
 .eyebrow { font-size: 0.9rem; font-weight: 400; letter-spacing: normal; text-transform: none; color: var(--global-text-color-light); margin: 0 0 1.25rem; }
 
