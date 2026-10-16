@@ -1,9 +1,9 @@
 ---
 layout: page
 title: QUASMED
+start_date: "2017"
 description: Quality of Medical Software
-subdescription: 
-importance: 2
+subdescription: EXCELLENCE INITIATIVES 2017/2018
 img: assets/img/Quasmed.png
 encoding: utf-8
 ---

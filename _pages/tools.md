@@ -8,7 +8,7 @@ nav_order: 6
 ---
 
 <div class="collection-grid tools-grid">
-  {% assign sorted_projects = site.tools | sort: 'importance' %}
+  {% assign sorted_projects = site.tools | sort_natural: 'title' %}
   {% for project in sorted_projects %}
     {% include lab_collection_card.liquid %}
   {% endfor %}

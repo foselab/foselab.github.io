@@ -1,10 +1,10 @@
 ---
 layout: page
 title: AAIDT
+start_date: "2026"
 description: "AI Algorithms for Therapeutic Decision-Making: Validation, Explainability, and Legal and Ethical Implications"
 subdescription: SEEDCORN 2026
 img: assets/img/seedcorn.png
-importance: 2
 encoding: utf-8
 ---
 

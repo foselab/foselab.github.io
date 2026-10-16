@@ -1,10 +1,10 @@
 ---
 layout: page
 title: ANTHEM
+start_date: "2022"
 description: AdvaNced Technologies for Human-centrEd Medicine
-subdescription: PNRR
+subdescription: PNRR 2022
 img: assets/img/Anthem.jpg
-importance: 1
 encoding: utf-8
 ---
 

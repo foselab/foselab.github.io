@@ -1,10 +1,10 @@
 ---
 layout: page
 title: SAFEST
+start_date: "2023"
 description: Trust assurance of Digital Twins for medical CPSs
 subdescription: PRIN 2022
 img: assets/img/safest.png
-importance: 1
 encoding: utf-8
 ---
 A Digital Twin (DT) is a machine-processable high-fidelity virtual representation of a physical system, called Physical Twin (PT), to
