@@ -88,7 +88,7 @@ window.foselabSearchEntries = [
         {
           title: "Projects",
           description: "Research collaborations tackling complex software challenges.",
-          text: "PNRR ANTHEM AdvaNced Technologies for Human-centrEd Medicine FISR MVM ADAPT Bringing adaptation to ventilators PRIN 2022 SAFEST Trust assurance of Digital Twins for medical CPSs PNRR PE CHANGES Cultural Heritage Active Innovation for Sustainable Society QUASMED Quality of Medical Software SEEDCORN 2026 AAIDT AI Algorithms for Therapeutic Decision-Making: Validation, Explainability, and Legal and Ethical Implications",
+          text: "TODO TODO TODO SEEDCORN 2026 AAIDT AI Algorithms for Therapeutic Decision-Making: Validation, Explainability, and Legal and Ethical Implications PRIN 2022 SAFEST Trust assurance of Digital Twins for medical CPSs PNRR PE 2022 CHANGES Cultural Heritage Active Innovation for Sustainable Society PNRR 2022 ANTHEM AdvaNced Technologies for Human-centrEd Medicine FISR 2021 MVM ADAPT Bringing adaptation to ventilators EXCELLENCE INITIATIVES 2017/2018 QUASMED Quality of Medical Software",
           section: "Pages",
           url: "/projects/"
         },
@@ -126,7 +126,7 @@ window.foselabSearchEntries = [
         {
           title: "Tools",
           description: "Software for modelling, verification, and testing, developed by our group.",
-          text: "{% assign sorted_projects = site.tools | sort: 'importance' %} {% for project in sorted_projects %} {% include lab_collection_card.liquid %} {% endfor %}",
+          text: "{% assign sorted_projects = site.tools | sort_natural: 'title' %} {% for project in sorted_projects %} {% include lab_collection_card.liquid %} {% endfor %}",
           section: "Pages",
           url: "/tools/"
         },
@@ -201,6 +201,18 @@ window.foselabSearchEntries = [
               section: "Projects",
               
                 url: "/projects/changes/"
+              
+            },
+          
+        
+          
+            {
+              title: "TODO",
+              description: "TODO",
+              text: "TODO Partners University of Bergamo: TOTO TODO",
+              section: "Projects",
+              
+                url: "/projects/enea/"
               
             },
           
