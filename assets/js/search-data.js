@@ -88,7 +88,7 @@ window.foselabSearchEntries = [
         {
           title: "Projects",
           description: "Research collaborations tackling complex software challenges.",
-          text: "TODO TODO TODO SEEDCORN 2026 AAIDT AI Algorithms for Therapeutic Decision-Making: Validation, Explainability, and Legal and Ethical Implications PRIN 2022 SAFEST Trust assurance of Digital Twins for medical CPSs PNRR PE 2022 CHANGES Cultural Heritage Active Innovation for Sustainable Society PNRR 2022 ANTHEM AdvaNced Technologies for Human-centrEd Medicine FISR 2021 MVM ADAPT Bringing adaptation to ventilators EXCELLENCE INITIATIVES 2017/2018 QUASMED Quality of Medical Software",
+          text: "SEEDCORN 2026 AAIDT AI Algorithms for Therapeutic Decision-Making: Validation, Explainability, and Legal and Ethical Implications PRIN 2022 SAFEST Trust assurance of Digital Twins for medical CPSs PNRR PE 2022 CHANGES Cultural Heritage Active Innovation for Sustainable Society PNRR 2022 ANTHEM AdvaNced Technologies for Human-centrEd Medicine FISR 2021 MVM ADAPT Bringing adaptation to ventilators EXCELLENCE INITIATIVES 2017/2018 QUASMED Quality of Medical Software",
           section: "Pages",
           url: "/projects/"
         },
