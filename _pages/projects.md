@@ -8,7 +8,8 @@ nav_order: 3
 ---
 
 <div class="collection-grid">
-  {% assign sorted_projects = site.projects | sort: 'start_date' | reverse %}
+  {% assign visible_projects = site.projects | where: 'show', true %}
+  {% assign sorted_projects = visible_projects | sort: 'start_date' | reverse %}
   {% for project in sorted_projects %}
     {% include lab_collection_card.liquid %}
   {% endfor %}

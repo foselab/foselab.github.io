@@ -5,6 +5,7 @@ start_date: "2022"
 description: Cultural Heritage Active Innovation for Sustainable Society
 subdescription: PNRR PE 2022
 img: assets/img/Changes.png
+show: true
 encoding: utf-8
 ---
 

@@ -5,6 +5,7 @@ start_date: "2022"
 description: AdvaNced Technologies for Human-centrEd Medicine
 subdescription: PNRR 2022
 img: assets/img/Anthem.jpg
+show: true
 encoding: utf-8
 ---
 

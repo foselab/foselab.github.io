@@ -5,6 +5,7 @@ start_date: "2026"
 description: "AI Algorithms for Therapeutic Decision-Making: Validation, Explainability, and Legal and Ethical Implications"
 subdescription: SEEDCORN 2026
 img: assets/img/seedcorn.png
+show: true
 encoding: utf-8
 ---
 
